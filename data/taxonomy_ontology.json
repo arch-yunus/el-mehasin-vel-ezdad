@@ -1,6 +1,7 @@
 {
   "domain": "Classical Arabic Adab & Rhetoric",
   "genre": "al-Mahasin wa-al-Masawi / al-Addad",
+  "total_pairs": 10,
   "categories": [
     {
       "id": "epistemic_verbal",
@@ -10,10 +11,13 @@
         "es-Samt",
         "el-Beyan",
         "el-Kavl",
-        "el-Kitabe"
+        "el-Kitabe",
+        "el-Ilm",
+        "el-Cehl"
       ],
       "topics": [
-        "sukut-ve-kelam"
+        "sukut-ve-kelam",
+        "ilim-ve-cehalet"
       ]
     },
     {
@@ -24,7 +28,8 @@
         "el-Cud",
         "el-Buhl",
         "el-Iktisad",
-        "el-Kerem"
+        "el-Kerem",
+        "el-Isar"
       ],
       "topics": [
         "comertlik-ve-cimrilik"
@@ -38,7 +43,8 @@
         "es-Secaa",
         "el-Cubn",
         "el-Hazm",
-        "et-Tehevvur"
+        "et-Tehevvur",
+        "el-Hila"
       ],
       "topics": [
         "cesaret-ve-ihtiyat"
@@ -52,10 +58,13 @@
         "el-Isk",
         "es-Silvan",
         "el-Heva",
-        "el-Akl"
+        "el-Akl",
+        "es-Sabr",
+        "el-Ceze"
       ],
       "topics": [
-        "ask-ve-silvan"
+        "ask-ve-silvan",
+        "sabir-ve-teessuf"
       ]
     },
     {
@@ -66,10 +75,18 @@
         "el-Vefa",
         "el-Gadr",
         "el-Igtirar",
-        "el-Ihtiyat"
+        "el-Uzle",
+        "el-Hilta",
+        "el-Medh",
+        "ez-Zemm",
+        "et-Tevazu",
+        "el-Kibr"
       ],
       "topics": [
-        "vefa-ve-temkin"
+        "vefa-ve-temkin",
+        "uzlet-ve-muasere",
+        "medih-ve-hiciv",
+        "tevazu-ve-izzet"
       ]
     }
   ],
@@ -77,18 +94,21 @@
     "badi": [
       "Tibak (Antithesis)",
       "Mukabele (Parallel Contrast)",
-      "Cinas (Paronomasia)",
-      "Husn-i Ta'lil (Phantastic Aetiology)"
+      "Cinas-i Tamm & Nakis (Paronomasia)",
+      "Husn-i Ta'lil (Phantastic Aetiology)",
+      "Irsal-i Mesel (Proverbial Evidencing)",
+      "Tecahul-i Arif (Feigned Ignorance)"
     ],
     "bayan": [
-      "Teshbih (Simile)",
-      "Istiare (Metaphor)",
+      "Teshbih-i Belig (Trope / Elliptical Simile)",
+      "Istiare-i Mekniyye & Tasrihiyye (Metaphor)",
       "Kinaye (Metonymy)"
     ],
     "maani": [
-      "Icaz (Conciseness)",
+      "Icaz-i Kasr & Hazf (Conciseness)",
       "Itnab (Prolixity)",
-      "Musavat (Equivalence)"
+      "Musavat (Equivalence)",
+      "Fasl ve Vasl (Disjunction and Conjunction)"
     ]
   }
 }
