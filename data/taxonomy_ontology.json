@@ -1,0 +1,94 @@
+{
+  "domain": "Classical Arabic Adab & Rhetoric",
+  "genre": "al-Mahasin wa-al-Masawi / al-Addad",
+  "categories": [
+    {
+      "id": "epistemic_verbal",
+      "name_tr": "Bilgi ve İletişim Ahlakı",
+      "name_ar": "آداب اللسان والبيان",
+      "concepts": [
+        "es-Samt",
+        "el-Beyan",
+        "el-Kavl",
+        "el-Kitabe"
+      ],
+      "topics": [
+        "sukut-ve-kelam"
+      ]
+    },
+    {
+      "id": "economic_chivalric",
+      "name_tr": "İktisadi ve Sosyal Erdemler",
+      "name_ar": "آداب المال والمروءة",
+      "concepts": [
+        "el-Cud",
+        "el-Buhl",
+        "el-Iktisad",
+        "el-Kerem"
+      ],
+      "topics": [
+        "comertlik-ve-cimrilik"
+      ]
+    },
+    {
+      "id": "military_existential",
+      "name_tr": "Askeri ve Stratejik Faziletler",
+      "name_ar": "الحرب والفروسية",
+      "concepts": [
+        "es-Secaa",
+        "el-Cubn",
+        "el-Hazm",
+        "et-Tehevvur"
+      ],
+      "topics": [
+        "cesaret-ve-ihtiyat"
+      ]
+    },
+    {
+      "id": "affective_psychological",
+      "name_tr": "Duygusal ve Nefsi Haller",
+      "name_ar": "أحوال النفس والقلب",
+      "concepts": [
+        "el-Isk",
+        "es-Silvan",
+        "el-Heva",
+        "el-Akl"
+      ],
+      "topics": [
+        "ask-ve-silvan"
+      ]
+    },
+    {
+      "id": "interpersonal_ethical",
+      "name_tr": "Sosyal İlişkiler ve Ahit Ahlakı",
+      "name_ar": "المعاشرة والوفاء",
+      "concepts": [
+        "el-Vefa",
+        "el-Gadr",
+        "el-Igtirar",
+        "el-Ihtiyat"
+      ],
+      "topics": [
+        "vefa-ve-temkin"
+      ]
+    }
+  ],
+  "rhetorical_taxonomy": {
+    "badi": [
+      "Tibak (Antithesis)",
+      "Mukabele (Parallel Contrast)",
+      "Cinas (Paronomasia)",
+      "Husn-i Ta'lil (Phantastic Aetiology)"
+    ],
+    "bayan": [
+      "Teshbih (Simile)",
+      "Istiare (Metaphor)",
+      "Kinaye (Metonymy)"
+    ],
+    "maani": [
+      "Icaz (Conciseness)",
+      "Itnab (Prolixity)",
+      "Musavat (Equivalence)"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "mehasin": {
+    "transliteration": "maḥāsin",
+    "literal": "beauties, merits, virtues",
+    "concept": "The praise and moral justification of a particular human trait, action, or state."
+  },
+  "mesavi": {
+    "transliteration": "masāwī",
+    "literal": "vices, flaws, defects",
+    "concept": "The critique and demonstration of harmful aspects of a trait or state."
+  },
+  "ezdad": {
+    "transliteration": "aḍdād",
+    "literal": "contraries, polar opposites",
+    "concept": "The dialectical pairing of antithetical concepts in Arabic lexicography and rhetoric."
+  },
+  "tibak": {
+    "transliteration": "ṭibāq",
+    "literal": "antithesis",
+    "concept": "A rhetorical figure pairing two contrasting words in a single sentence or verse."
+  },
+  "mukabele": {
+    "transliteration": "muqābala",
+    "literal": "parallel contrast",
+    "concept": "A rhetorical balance where two or more concepts are opposed by matching antithetical concepts in order."
+  },
+  "hazm": {
+    "transliteration": "ḥazm",
+    "literal": "prudence, circumspection",
+    "concept": "Rational foresight and precaution against reckless rashness (tahawwur)."
+  },
+  "silvan": {
+    "transliteration": "silwān",
+    "literal": "solace, oblivion, detachment",
+    "concept": "Rational detachment from obsessive passion and recovery of intellectual equilibrium."
+  }
+}

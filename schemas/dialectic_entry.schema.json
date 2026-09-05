@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DialecticEntry",
+  "description": "Schema for structured thesis-antithesis pairs in the el-Mehasin ve'l-Ezdad corpus.",
+  "type": "object",
+  "required": [
+    "entry_id",
+    "topic_slug",
+    "classical_arabic_title",
+    "thesis",
+    "antithesis",
+    "dialectic_synthesis",
+    "metadata"
+  ],
+  "properties": {
+    "entry_id": {
+      "type": "string",
+      "pattern": "^pair_[0-9]{3}_[a-z_]+$"
+    },
+    "topic_slug": {
+      "type": "string"
+    },
+    "classical_arabic_title": {
+      "type": "string"
+    },
+    "thesis": {
+      "type": "object",
+      "required": [
+        "pole",
+        "concept",
+        "core_premise",
+        "evidence_count",
+        "top_quote"
+      ],
+      "properties": {
+        "pole": {
+          "type": "string",
+          "enum": [
+            "mehasin",
+            "mesavi",
+            "ezdad"
+          ]
+        },
+        "concept": {
+          "type": "string"
+        },
+        "core_premise": {
+          "type": "string"
+        },
+        "evidence_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "top_quote": {
+          "type": "object",
+          "required": [
+            "arabic",
+            "turkish",
+            "source"
+          ],
+          "properties": {
+            "arabic": {
+              "type": "string"
+            },
+            "turkish": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "antithesis": {
+      "type": "object",
+      "required": [
+        "pole",
+        "concept",
+        "core_premise",
+        "evidence_count",
+        "top_quote"
+      ],
+      "properties": {
+        "pole": {
+          "type": "string",
+          "enum": [
+            "mehasin",
+            "mesavi",
+            "ezdad"
+          ]
+        },
+        "concept": {
+          "type": "string"
+        },
+        "core_premise": {
+          "type": "string"
+        },
+        "evidence_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "top_quote": {
+          "type": "object",
+          "required": [
+            "arabic",
+            "turkish",
+            "source"
+          ],
+          "properties": {
+            "arabic": {
+              "type": "string"
+            },
+            "turkish": {
+              "type": "string"
+            },
+            "source": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "dialectic_synthesis": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "rhetorical_devices": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "traditional_attribution": {
+          "type": "string"
+        },
+        "chapter_index": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}
