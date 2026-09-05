@@ -11,6 +11,12 @@
 [![Dataset Format](https://img.shields.io/badge/Data_Format-JSONL%20%7C%20HuggingFace%20Ready-ec4899?style=for-the-badge)](data/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3b82f6?style=for-the-badge&logo=python)](scripts/)
 
+<br/>
+
+<img src="assets/hero_manuscript.jpg" alt="Kitab al-Mahasin wa-al-Addad Classical Manuscript & Scale of Dialectic" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"/>
+
+<br/>
+
 > **"Kelimeler zıtlarıyla tartılır; hakikat, iki ucun geriliminde parıldar."**  
 > Bu depo; klasik Arap adab külliyatının, belagat teorisinin ve erken dönem İslam rasyonalizminin en çarpıcı türlerinden biri olan **Mehâsin ve Mesâvî / Ezdâd** (Güzellikler-Kusurlar / Karşıtlıklar) literatürünü; tenkitli metin neşirleri, tarihsel şerhler, modern edebi eleştiriler, zengin şiir şahitleri (*şevâhid*) ve yapılandırılmış diyalektik veri modelleriyle dijital çağa aktaran kapsamlı bir beşeri bilimler (Digital Humanities) ve hesaplamalı retorik külliyatıdır.
 
@@ -58,6 +64,11 @@ Bu projenin temel hedefi; eserin orijinal Arapça metinlerini tahkikli neşirler
 ---
 
 ## 🏛️ Tarihsel, Felsefi ve Epistemolojik Arka Plan
+
+<div align="center">
+<img src="assets/munazara_debate.jpg" alt="Abbasid Court Dialectic Debate Hall" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"/>
+<p><em>Abbâsî saray ve meclis muhitinde diyalektik münazara, felsefi akıl yürütme ve belagat meclisi tasviri.</em></p>
+</div>
 
 Abbâsî hilafetinin başkenti Bağdat ve Basra-Kûfe ekolleri; Grek felsefe ve mantığının (özellikle Aristoteles'in *Organon*, *Topika* ve *Rhetorika* eserlerinin), Sasani-Fars bürokratik saray adabının (*Kitâb-ı Âdâb*) ve kadim Câhiliye Arap şiir zevkinin harmanlandığı küresel bir düşünce kazanıydı.
 
@@ -118,6 +129,14 @@ graph TD
 > [!TIP]
 > **Regis Blachère (Arap Edebiyatı Tarihçisi):**  
 > *"Bu metinler, ortaçağ İslam dünyasında diyalektiğin ve sofistike münazaranın bir oyuna, yüksek bir sanat formuna dönüşmüş halidir. Burada ahlak, dilin ve zekânın emrine girmiştir."*
+
+---
+
+## ⚖️ Diyalektik Kurgu Mimarisi
+
+<div align="center">
+<img src="assets/card_features.svg" alt="Dialectic Architecture Card" width="100%"/>
+</div>
 
 ---
 

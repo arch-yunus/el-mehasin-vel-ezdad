@@ -1,0 +1,46 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="320" rx="16" fill="url(#cardGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Column 1: Thesis -->
+  <g transform="translate(60, 40)">
+    <rect width="260" height="240" rx="12" fill="#064e3b" fill-opacity="0.4" stroke="#10b981" stroke-width="1.5"/>
+    <circle cx="130" cy="45" r="24" fill="#059669"/>
+    <text x="130" y="52" font-family="'Amiri', serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">المحاسن</text>
+    <text x="130" y="100" font-family="'Inter', sans-serif" font-size="16" fill="#34d399" font-weight="bold" text-anchor="middle">TEZ (EL-MEHÂSİN)</text>
+    <text x="130" y="130" font-family="'Inter', sans-serif" font-size="13" fill="#a7f3d0" text-anchor="middle">• Ayet ve Hadis Delilleri</text>
+    <text x="130" y="155" font-family="'Inter', sans-serif" font-size="13" fill="#a7f3d0" text-anchor="middle">• Klasik Şiir Şevâhidi</text>
+    <text x="130" y="180" font-family="'Inter', sans-serif" font-size="13" fill="#a7f3d0" text-anchor="middle">• Erdem ve Fazilet Savunusu</text>
+    <text x="130" y="205" font-family="'Inter', sans-serif" font-size="13" fill="#a7f3d0" text-anchor="middle">• Tarihsel İbret Tabloları</text>
+  </g>
+
+  <!-- Center Balance Icon -->
+  <g transform="translate(500, 160)">
+    <circle cx="0" cy="0" r="42" fill="#1e293b" stroke="url(#goldText)" stroke-width="2.5"/>
+    <text x="0" y="-8" font-family="'Inter', sans-serif" font-size="11" fill="#fbbf24" font-weight="bold" text-anchor="middle">İTİDAL</text>
+    <text x="0" y="12" font-family="'Amiri', serif" font-size="22" fill="#fbbf24" font-weight="bold" text-anchor="middle">ميزان</text>
+    <text x="0" y="26" font-family="'Inter', sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">SENTEZ</text>
+  </g>
+
+  <!-- Column 2: Antithesis -->
+  <g transform="translate(680, 40)">
+    <rect width="260" height="240" rx="12" fill="#7f1d1d" fill-opacity="0.4" stroke="#ef4444" stroke-width="1.5"/>
+    <circle cx="130" cy="45" r="24" fill="#dc2626"/>
+    <text x="130" y="52" font-family="'Amiri', serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">الأضداد</text>
+    <text x="130" y="100" font-family="'Inter', sans-serif" font-size="16" fill="#f87171" font-weight="bold" text-anchor="middle">ANTİTEZ (EL-EZDÂD)</text>
+    <text x="130" y="130" font-family="'Inter', sans-serif" font-size="13" fill="#fecaca" text-anchor="middle">• Bağlamsal Kısıtlamalar</text>
+    <text x="130" y="155" font-family="'Inter', sans-serif" font-size="13" fill="#fecaca" text-anchor="middle">• Hiciv ve Realist Şiirler</text>
+    <text x="130" y="180" font-family="'Inter', sans-serif" font-size="13" fill="#fecaca" text-anchor="middle">• İsraf ve İflas Vakaları</text>
+    <text x="130" y="205" font-family="'Inter', sans-serif" font-size="13" fill="#fecaca" text-anchor="middle">• Pragmatik Akılcı İtiraz</text>
+  </g>
+</svg>
