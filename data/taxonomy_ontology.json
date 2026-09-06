@@ -1,7 +1,7 @@
 {
   "domain": "Classical Arabic Adab & Rhetoric",
   "genre": "al-Mahasin wa-al-Masawi / al-Addad",
-  "total_pairs": 10,
+  "total_pairs": 20,
   "categories": [
     {
       "id": "epistemic_verbal",
@@ -110,5 +110,27 @@
       "Musavat (Equivalence)",
       "Fasl ve Vasl (Disjunction and Conjunction)"
     ]
-  }
+  },
+  "all_topic_slugs": [
+    "sukut-ve-kelam",
+    "comertlik-ve-cimrilik",
+    "cesaret-ve-ihtiyat",
+    "ask-ve-silvan",
+    "vefa-ve-temkin",
+    "ilim-ve-cehalet",
+    "uzlet-ve-muasere",
+    "medih-ve-hiciv",
+    "sabir-ve-teessuf",
+    "tevazu-ve-izzet",
+    "zenginlik-ve-yoksulluk",
+    "sehir-ve-col-hayati",
+    "vatan-ve-gurbet",
+    "genclik-ve-yaslilik",
+    "hurriyet-ve-itaat",
+    "af-ve-intikam",
+    "sir-ve-aciklik",
+    "mizah-ve-vakar",
+    "hirs-ve-zuhd",
+    "guzellik-ve-cirkinlik"
+  ]
 }

@@ -1,15 +1,16 @@
 <div align="center">
 
-![el-mehasin-vel-ezdad Banner](assets/banner.svg)
+![el-mehasin-vel-ezdad Vector Banner](assets/banner.svg)
 
 # el-mehasin-vel-ezdad (كِتَابُ المَحَاسِنِ وَالأَضْدَادِ)
 ### Klasik Arap Edebiyatında İki Kutuplu Mantık, Diyalektik Adab ve Hesaplamalı Retorik Korpusu
 
 [![Validator](https://img.shields.io/badge/Validator-Passing-10b981?style=for-the-badge&logo=checkmarx)](scripts/validator.py)
+[![Test Suite](https://img.shields.io/badge/Tests-5%20Passed-10b981?style=for-the-badge&logo=pytest)](tests/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-f59e0b?style=for-the-badge)](LICENSE)
-[![Corpus](https://img.shields.io/badge/Dialectic_Pairs-10_Thematic_Poles-6366f1?style=for-the-badge)](#-eserden-metin-içi-seçkiler-ve-diyalektik-kutuplar)
-[![Dataset Format](https://img.shields.io/badge/Data_Format-JSONL%20%7C%20HuggingFace%20Ready-ec4899?style=for-the-badge)](data/)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3b82f6?style=for-the-badge&logo=python)](scripts/)
+[![Corpus](https://img.shields.io/badge/Dialectic_Pairs-20_Thematic_Poles-6366f1?style=for-the-badge)](#-eserden-metin-içi-seçkiler-ve-diyalektik-kutuplar)
+[![Dataset Format](https://img.shields.io/badge/Data_Format-JSONL%20%7C%20TEI_XML%20%7C%20HF-ec4899?style=for-the-badge)](data/)
+[![Python SDK](https://img.shields.io/badge/Python_SDK-v1.0.0-3b82f6?style=for-the-badge&logo=python)](el_mehasin/)
 
 <br/>
 
@@ -18,7 +19,7 @@
 <br/>
 
 > **"Kelimeler zıtlarıyla tartılır; hakikat, iki ucun geriliminde parıldar."**  
-> Bu depo; klasik Arap adab külliyatının, belagat teorisinin ve erken dönem İslam rasyonalizminin en çarpıcı türlerinden biri olan **Mehâsin ve Mesâvî / Ezdâd** (Güzellikler-Kusurlar / Karşıtlıklar) literatürünü; tenkitli metin neşirleri, tarihsel şerhler, modern edebi eleştiriler, zengin şiir şahitleri (*şevâhid*) ve yapılandırılmış diyalektik veri modelleriyle dijital çağa aktaran kapsamlı bir beşeri bilimler (Digital Humanities) ve hesaplamalı retorik külliyatıdır.
+> Bu depo; klasik Arap adab külliyatının, belagat teorisinin ve erken dönem İslam rasyonalizminin en çarpıcı türlerinden biri olan **Mehâsin ve Mesâvî / Ezdâd** (Güzellikler-Kusurlar / Karşıtlıklar) literatürünü; tenkitli metin neşirleri, tarihsel şerhler, modern edebi eleştiriler, zengin şiir şahitleri (*şevâhid*), Python SDK kütüphanesi, etkileşimli web gezgini ve yapılandırılmış diyalektik veri modelleriyle dijital çağa aktaran kapsamlı bir beşeri bilimler (Digital Humanities) ve hesaplamalı retorik külliyatıdır.
 
 </div>
 
@@ -30,23 +31,16 @@
 2. [Tarihsel, Felsefi ve Epistemolojik Arka Plan](#-tarihsel-felsefi-ve-epistemolojik-arka-plan)
 3. [Müelliflik ve Metin Tenkidi Meselesi: Câhiz mi, Beyhakî mi?](#-müelliflik-ve-metin-tenkidi-meselesi-câhiz-mi-beyhakî-mi)
 4. [Tarihçiler, Müsteşrikler ve Edebi Tenkitçilerin Görüşleri](#-tarihçiler-müsteşrikler-ve-edebi-tenkitçilerin-görüşleri)
-5. [Eserden Metin İçi Seçkiler, Genişletilmiş Alıntılar ve Şevâhid](#-eserden-metin-içi-seçkiler-genişletilmiş-alıntılar-ve-şevâhid)
-   * [1. Sükût (Susmak) vs. Kelâm (Konuşmak/Beyân)](#1-sükût-susmak-vs-kelâm-konuşmakbeyân)
-   * [2. Cûd (Cömertlik) vs. Buhl (Cimrilik/Tasarruf)](#2-cûd-cömertlik-vs-buhl-cimriliktasarruf)
-   * [3. Şecâat (Cesaret) vs. Hazm/Cübn (İhtiyat/Korkaklık)](#3-şecâat-cesaret-vs-hazmcübn-ihtiyatkorkaklık)
-   * [4. Işk (Tutkulu Aşk) vs. Silvân (Unutuş/Akılcılık)](#4-ışk-tutkulu-aşk-vs-silvân-unutuşakılcılık)
-   * [5. Vefâ (Bağlılık) vs. Zemmü'l-İğtirâr (Temkin/Mesafe)](#5-vefâ-bağlılık-vs-zemmül-iğtirâr-temkinmesafe)
-   * [6. İlim (Hikmet/Nûr) vs. Rahatü'l-Cehl (Cehaletin Konforu)](#6-ilim-hikmetnûr-vs-rahatül-cehl-cehaletin-konforu)
-   * [7. Uzlet (İnzivâ/Halvet) vs. Hılta (Toplumsallık/Muâşeret)](#7-uzlet-inzivâhalvet-vs-hılta-toplumsallıkmuâşeret)
-   * [8. Medih (Övgü/Teşvik) vs. Hiciv (Yergi/Teşhir)](#8-medih-övgüteşvik-vs-hiciv-yergiteşhir)
-   * [9. Sabır (Metanet/Rıza) vs. Ceze' (Kederin İfşası/Ağıt)](#9-sabır-metanetrıza-vs-ceze-kederin-ifşasıağıt)
-   * [10. Tevâzu (Mahviyet) vs. Kibr ale'l-Mütekebbirîn (İzzet/Celadet)](#10-tevâzu-mahviyet-vs-kibr-alel-mütekebbirîn-izzetceladet)
-6. [Diyalektik Kutuplar ve Retorik Figürler Matrisi](#-diyalektik-kutuplar-ve-retorik-figürler-matrisi)
-7. [Retorik Sanatlar ve Belagat Morfolojisi](#-retorik-sanatlar-ve-belagat-morfolojisi)
-8. [Modern NLP, LLM ve Hesaplamalı Beşeri Bilimler Senaryoları](#-modern-nlp-llm-ve-hesaplamalı-beşeri-bilimler-senaryoları)
-9. [Depo Mimarisi ve Veri Şeması](#-depo-mimarisi-ve-veri-şeması)
-10. [Katkı Sağlama ve İnceleme Süreci](#-katkı-sağlama-ve-inceleme-süreci)
-11. [Genişletilmiş Bibliyografya ve Kaynakça](#-genişletilmiş-bibliyografya-ve-kaynakça)
+5. [Diyalektik Kurgu Mimarisi](#-diyalektik-kurgu-mimarisi)
+6. [Eserden 20 Diyalektik Kutup ve Genişletilmiş Şevâhid](#-eserden-20-diyalektik-kutup-ve-genişletilmiş-şevâhid)
+7. [Diyalektik Kutuplar ve Retorik Figürler Karşılaştırma Matrisi (20 Kutup)](#-diyalektik-kutuplar-ve-retorik-figürler-karşılaştırma-matrisi-20-kutup)
+8. [🐍 `el_mehasin` Python SDK ve CLI Kullanımı](#-el_mehasin-python-sdk-ve-cli-kullanımı)
+9. [🌐 Etkileşimli Web Gezgini (Interactive Explorer)](#-etkileşimli-web-gezgini-interactive-explorer)
+10. [🔬 Retorik Sanatlar ve Belagat Morfolojisi](#-retorik-sanatlar-ve-belagat-morfolojisi)
+11. [🤖 Modern NLP, LLM ve Hesaplamalı Beşeri Bilimler Senaryoları](#-modern-nlp-llm-ve-hesaplamalı-beşeri-bilimler-senaryoları)
+12. [💻 Depo Mimarisi ve Veri Şeması](#-depo-mimarisi-ve-veri-şeması)
+13. [🧪 Testler ve Doğrulama](#-testler-ve-doğrulama)
+14. [📚 Genişletilmiş Bibliyografya ve Kaynakça](#-genişletilmiş-bibliyografya-ve-kaynakça)
 
 ---
 
@@ -58,8 +52,6 @@ Bu külliyat:
 * **İki Kutuplu Mantık (Bipolar Dialectic):** Bir tezin zıddı olmadan ontolojik ve retorik olarak tam kavranamayacağını savunan yüksek bir zihin jimnastiğidir.
 * **Münazara ve Adab Akrobasisi:** Abbâsî sarayında vezir, kâtip, fakih ve nedimlerin meclislerde sergilediği entelektüel çevikliğin, dil cambazlığının ve ikna sanatının zirve metnidir.
 * **Modern NLP ve LLM’ler İçin Altın Maden:** Zıt kutuplu argüman madenciliği (*argument mining*), anlamsal tersinirlik (*semantic antonymy*), çok dilli duygu analizi kutuplaşması (*sentiment polarity*), karşılaştırmalı akıl yürütme (*contrastive reasoning*) ve klasik retorik ontolojileri için eşsiz bir laboratuvardır.
-
-Bu projenin temel hedefi; eserin orijinal Arapça metinlerini tahkikli neşirlerden derlemek, açıklayıcı Türkçe şerhler ve İngilizce terminolojiyle eşleştirmek; her bir kavramsal ikiliği JSON Schema ile doğrulanmış JSONL formatında makinece işlenebilir, yapay zekâ modellerince eğitilebilir bir araştırma korpusu haline getirmektir.
 
 ---
 
@@ -76,25 +68,6 @@ Mutezile kelâmının tartışma kültürünü şekillendirdiği bu altın çağ
 1. **İkna Sanatı (Persuasion):** Hakikatin tek bir dogmatik formülle değil, şartların ve bağlamın getirdiği değişkenlerle kavranabileceği savunuluyordu.
 2. **Kelimelerin Zıt Anlamlılığı (*el-Ezdâd*):** Arap dilinde aynı kelimenin hem bir anlamı hem de tam zıddını ifade edebilmesi (örneğin *el-Cevn* kelimesinin hem siyah hem beyaz anlamına gelmesi gibi), zihinsel diyalektiğin dilbilimsel temeliydi.
 3. **Konjonktürel Ahlak:** Cömertlik mutlak bir erdemdir; ancak ailenin rızkını tüketip çocukları sefalete terk eden cömertlik ahmaklıktır. Suskunluk bilgeliktir; fakat haksızlık karşısında susmak dilsiz şeytanlıktır.
-
-```mermaid
-graph TD
-    A["Klasik Arap Adab Geleneği"] --> B["1. Kutup: el-Mehâsin (Övgü)"]
-    A --> C["2. Kutup: el-Ezdâd / el-Mesâvî (Yergi)"]
-    
-    B --> B1["Ayet ve Hadis Şahitleri"]
-    B --> B2["Tarihi İbretlik Vakalar"]
-    B --> B3["Klasik Şiir Şevâhidi"]
-    B --> B4["Ahlaki & Felsefi Savunu"]
-
-    C --> C1["Bağlamsal Kısıtlamalar & Karşı Deliller"]
-    C --> C2["İsraf & Felaket Örnekleri"]
-    C --> C3["Realist & Hiciv Şiirleri"]
-    C --> C4["Pragmatik & Akılcı Çıkarım"]
-
-    B --> D["DİYALEKTİK SENTEZ (İtidal & Hikmet)"]
-    C --> D
-```
 
 ---
 
@@ -122,14 +95,6 @@ graph TD
 > **Charles Pellat (The Encyclopaedia of Islam / Câhiz Uzmanı):**  
 > *"Mehâsin ve Mesâvî edebiyatı, klasik Arap nesrinin en tipik adab türlerinden biridir. Bu türün amacı mutlak dogmatik bir ahlak felsefesi kurmak değil; saray ve meclis muhitindeki kâtiplere her iki tarafı da eşit belagatle savunabilecekleri zihinsel teçhizatı ve dilsel cephaneyi kazandırmaktır."*
 
-> [!NOTE]
-> **Prof. Dr. Şinasi Gündüz / Klasik Edebiyat Araştırmacıları:**  
-> *"Câhiz’e atfedilen Mehâsin ve'l-Ezdâd, zıtların birliğinden ziyade zıtların çatışmasındaki estetiği hedefler. Arapça'daki zıt anlamlı kelimeler (ezdâd) mantığı ile insanın ahlaki eylemleri arasındaki paralellik bu eserde somutlaşır. İnsan tek bir erdemle tanımlanamaz; şartların doğurduğu karşıtlıklar bütünüdür."*
-
-> [!TIP]
-> **Regis Blachère (Arap Edebiyatı Tarihçisi):**  
-> *"Bu metinler, ortaçağ İslam dünyasında diyalektiğin ve sofistike münazaranın bir oyuna, yüksek bir sanat formuna dönüşmüş halidir. Burada ahlak, dilin ve zekânın emrine girmiştir."*
-
 ---
 
 ## ⚖️ Diyalektik Kurgu Mimarisi
@@ -140,221 +105,34 @@ graph TD
 
 ---
 
-## 📜 Eserden Metin İçi Seçkiler, Genişletilmiş Alıntılar ve Şevâhid
+## 📜 Eserden 20 Diyalektik Kutup ve Genişletilmiş Şevâhid
 
-Aşağıda, eserde yer alan 10 temel kavramsal ikiliğin orijinal metin mantığına, şiir şahitlerine (*şevâhid*), hadis ve hikmet iktibaslarına sadık kalınarak derlenmiş genişletilmiş dökümleri yer almaktadır.
+Aşağıda korpusta yer alan 20 diyalektik kutup, delil türleri ve klasik şiir şahitleri yer almaktadır:
 
----
-
-### 1. Sükût (Susmak) vs. Kelâm (Konuşmak/Beyân)
-
-#### 🟢 Mehâsinü's-Samt (Susmanın Güzellikleri ve Erdemleri)
-* **Temel Argüman:** Suskunluk; nefsin afetlerinden (yalan, gıybet, riya, iftira) korunma zırhı, cahil için perde, âlim için vakar süsüdür. Söylenmemiş sözün sahibi insan iken, söylenen sözün kölesi insandır.
-* **Lokman Hekim'in Vasiyeti:**
-  > *"يا بني، إن كان الكلام من فضة فإن الصمت من ذهب. ولقد ندمت على الكلام مراراً، ولم أندم على الصمت مرة واحدة."*  
-  > *(Ey oğul! Söz gümüş ise sükût altındır. Konuştuğum için defalarca pişman oldum, fakat sustuğum için bir kez bile nedamet getirmedim.)*
-* **Şiir Şahidi (el-Mufaddaliyyât):**
-  > *يَمُوتُ الفَتَى مِنْ عَثْرَةٍ بِلِسَانِهِ *** وَلَيْسَ يَمُوتُ المَرْءُ مِنْ عَثْرَةِ الرِّجْلِ*  
-  > *فَعَثْرَتُهُ مِنْ فِيهِ تَرْمِي بِرَأْسِهِ *** وَعَثْرَتُهُ بِالرِّجْلِ تَبْرَأُ عَلَى مَهْلِ*  
-  > *(Yiğit, dili sürçtüğü için helak olur; ayağı sürçtüğü için değil! Ağzından çıkan bir sürçme onun başını koparır; oysa ayaktan gelen sürçme zamanla iyileşir.)*
-* **Hz. Ömer'in (r.a.) İhtarı:**
-  > *"من كثر كلامه كثر سقطه، ومن كثر سقطه قل حياؤه، ومن قل حياؤه قل ورعه، ومن قل ورعه مات قلبه."*  
-  > *(Kimin sözü çok olursa hatası çok olur; hatası çok olanın hayası azalır; hayası azalanın takvası erir; takvası eriyenin ise kalbi ölür.)*
-
-#### 🔴 Mehâsinü'l-Kelâm / Zemmü's-Samt (Konuşmanın Fazileti ve Susmanın Yergisi)
-* **Temel Argüman:** Kelâm olmaksızın peygamberlerin tebliği, adaletin ikamesi ve hikmetin nakli imkansızdır. Konuşma kabiliyeti (*nutk*), insanı hayvandan ayıran ilahi bir bağıştır.
-* **Kur'an Delili:**
-  > *«الرَّحْمَنُ • عَلَّمَ الْقُرْآنَ • خَلَقَ الْإِنسَانَ • عَلَّمَهُ الْبَيَانَ»* (er-Rahmân: 1-4)  
-  > *(Rahmân olan Allah; Kur'ân'ı öğretti, insanı yarattı ve ona beyânı [açıkça ifade etmeyi] öğretti.)*
-* **Hz. Ali'nin (k.v.) Hikmeti:**
-  > *تَكَلَّمُوا تُعْرَفُوا، فَإِنَّ المَرْءَ مَخْبُوءٌ تَحْتَ طَيِّ لِسَانِهِ لَا طَيْلَسَانِهِ*  
-  > *(Konuşunuz ki bilinesiniz; zira insan sarığının ve cübbesinin altında değil, dilinin kıvrımları altında gizlidir.)*
-* **Ebû Ali ed-Dekkâk:**
-  > *"الساكت عن الحق شيطان أخرس، والمتكلم بالباطل شيطان ناطق."*  
-  > *(Hakkı söylemekten kaçınarak susan dilsiz şeytandır; batılı konuşan ise nutuk atan şeytandır.)*
+1. **Sükût vs. Kelâm:** Lokman Hekim (*"Söz gümüş ise sükût altındır"*), *el-Mufaddaliyyât*, Hz. Ömer, Hz. Ali (*"Konuşunuz ki bilinesiniz"*), Kuşeyrî Risâlesi.
+2. **Cûd vs. Buhl:** Hâtem et-Tâî Divanı, Ebû Temmâm (*"Canı cömertçe feda etmek"*), Câhiz'in *Kitâbü'l-Buhalâ* iktisat tahlili.
+3. **Şecâat vs. Hazm:** el-Mütenebbî (*"Yıldızların altındakine razı olma / Akıl cesaretten önce gelir"*), Ahnef b. Kays.
+4. **Işk vs. Silvân:** Mecnûn-ı Âmirî, Eflâtun'un psikolojik tahlili, Ebû Nuvâs mısraları.
+5. **Vefâ vs. Zemmü'l-İğtirâr:** Semev'el b. Âdiyâ tarihi kıssası, İmam Şâfiî Divanı, İbnü'l-Mu'tez (*"Dostundan bin kez sakın"*).
+6. **İlim vs. Rahatü'l-Cehl:** Hz. Ali Divanı, Mütenebbî'nin varoluşsal keder beyti (*"ذو العقل يشقى في النعيم بعقله"*).
+7. **Uzlet vs. Hılta:** Fudayl b. İyâz, kabir ehline selam beyitleri, İbn Mâce cemaat hadisleri.
+8. **Medih vs. Hiciv:** Kâ'b b. Züheyr'in *Bânet Suâd* kasidesi, Hassân b. Sâbit'in müşriklere cevabı.
+9. **Sabır vs. Ceze':** Hz. Yakub'un feryat ayeti (Yûsuf: 86), Hz. Ali'nin iman temsili.
+10. **Tevâzu vs. Kibr:** Amr b. Külsum'un Muallaka beyitleri, Divânü'l-Hikme yıldız/duman temsili.
+11. **Gınâ vs. Fakr:** *"Veren el alan elden üstündür"* (Buhârî), *"Kanaat tükenmez hazinedir"*, nefis tokluğu hikmeti.
+12. **Hadar vs. Bâdiye:** Şehrin ilim ve sanatı (Câhiz - *el-Büldân*), çölün fıtri fesahati (Asmaî).
+13. **Vatan vs. Gurbet:** Memleket hasreti (*"بلادي وإن جارت علي عزيزة"*), İmam Şâfiî'nin seyahatteki beş fayda beyti.
+14. **Şebâb vs. Şeyb:** Gençlik hasreti (Ebü'l-Atâhiye), ak saçların nuru ve vakarı.
+15. **Hürriyet vs. İtaat:** Hz. Ömer (*"İnsanları ne zamandan beri köleleştirdiniz?"*), meşru otoriteye itaat ve asayiş.
+16. **Af vs. İntikam:** Gücü yeterken bağışlama erdemi, kısasın adaleti ve caydırıcılığı (Mütenebbî).
+17. **Ketm vs. İfşâ:** Sırrın hürriyet olması (Hz. Ali), şeffaflık ve samimiyetin ferahlığı.
+18. **Dahik vs. Bükâ:** Ruhları latifelerle dinlendirme (Hz. Ali), ciddiyet ve Allah korkusuyla gözyaşı.
+19. **Hırs vs. Zühd:** Yüksek azim ve hamiyet (Mütenebbî), fani hevesleri terk edip rızaya erme.
+20. **Hüsn vs. Kubh:** Suret güzelliğinin ilahi sanatı, kalbi güzelliğin ve siretin ebediyeti.
 
 ---
 
-### 2. Cûd (Cömertlik) vs. Buhl (Cimrilik/Tasarruf)
-
-#### 🟢 Mehâsinü'l-Cûd ve's-Sehâ (Cömertliğin Övgüsü)
-* **Temel Argüman:** Cömertlik, sahibinin bütün ayıplarını örten, nesiller boyu övgüyle anılmasını sağlayan ve insanı hem Yaradan'a hem de yaratılanlara sevdiren en yüce mürüvvet faziletidir.
-* **Hâtem et-Tâî'nin Eşi Mâviye'ye Hitabı:**
-  > *أَمَاوِيَّ إِنَّ المَالَ غَادٍ وَرَائِحٌ *** وَيَبْقَى مِنَ المَالِ الأَحَادِيثُ وَالذِّكْرُ*  
-  > *أَمَاوِيَّ إِنِّي لَا أَقُولُ لِسَائِلٍ *** إِذَا جَاءَنِي يَوْمًا حَلَلْتَ عَلَى عُسْرِ*  
-  > *(Bilesin ki ey Mâviye! Mal sabah gelir akşam gider; maldan geriye kalan sadece güzel sohbetler ve asil yaddır. Ey Mâviye! Kapıma gelen hiçbir muhtaca 'darlık günümde geldin' deyip onu boş çevirmem!)*
-* **Ebû Temmâm'ın Medhiyesi:**
-  > *يَجُودُ بِالنَّفْسِ إِذْ ضَنَّ البَخِيلُ بِهَا *** وَالجُودُ بِالنَّفْسِ أَقْصَى غَايَةِ الجُودِ*  
-  > *(Cimrinin malını bile esirgediği yerde o canını ortaya koyar; canı cömertçe feda etmek ise cömertliğin varabileceği en son sınırdır.)*
-* **Hadis-i Şerif:**
-  > *"السخي قريب من الله، قريب من الجنة، قريب من الناس، بعيد من النار."* (Tirmizî)
-
-#### 🔴 Mehâsinü'l-Buhl ve'l-İktisâd (Tasarrufun/Cimriliğin Müdafaası)
-* **Temel Argüman:** Sınırsız ve tedbirsiz cömertlik, kişiyi başkalarına muhtaç kılan bir tebzirdir (israf). Mal insanın haysiyet zırhı, dinin ve ailesinin teminatıdır.
-* **el-Câhiz (Kitâbü'l-Buhalâ):**
-  > *"درهمك هو حريتك وعزك وسترك؛ فإذا ذهب مالك صرت كلاً على الناس، وتنكر لك الصديق، واجترأ عليك الدنيء."*  
-  > *(Dirhemin senin hürriyetin, izzetin ve örtündür. Malın tükendiğinde insanlara yük olursun; en yakın dostun sana yabancılaşır ve en bayağı insanlar sana dil uzatmaya cüret eder.)*
-* **Hadis ve Fıkıh Delili:**
-  > *«مَا عَالَ مَنْ اقْتَصَدَ»* *(Tasarruf eden darlığa düşmez.)*  
-  > *«إِنَّكَ أَنْ تَذَرَ وَرَثَتَكَ أَغْنِيَاءَ خَيْرٌ مِنْ أَنْ تَذَرَهُمْ عَالَةً يَتَكَفَّفُونَ النَّاسَ»* (Buhârî, Cenâiz)
-
----
-
-### 3. Şecâat (Cesaret) vs. Hazm/Cübn (İhtiyat/Korkaklık)
-
-#### 🟢 Mehâsinü'ş-Şecâa (Cesaretin Fazileti)
-* **Temel Argüman:** Cesaret, ruhun izzeti ve nefsin ölüm korkusunu yenmesidir. Korkak bin defa ölür, cesur insan ancak bir defa ölür.
-* **el-Mütenebbî'nin Şaheser Beyitleri:**
-  > *إِذَا غَامَرْتَ فِي شَرَفٍ مَرُومِ *** فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ*  
-  > *فَطَعْمُ المَوْتِ فِي أَمْرٍ حَقِيرٍ *** كَطَعْمِ المَوْتِ فِي أَمْرٍ عَظِيمِ*  
-  > *يَرَى الجُبَنَاءُ أَنَّ العَجْزَ عَقْلٌ *** وَتِلْكَ خَدِيعَةُ الطَّبْعِ اللَّئِيمِ*  
-  > *(Eğer yüce bir şerefe talip olduysan, yıldızların altındaki hiçbir bayağılığa razı olma! Zira küçük ve değersiz bir iş uğruna ölmenin tadı ne ise, büyük ve şerefli bir gaye uğruna ölmenin tadı da birdir. Korkaklar acizliklerini akıllılık sanırlar; oysa bu, alçak bir tabiatın kendi kendini aldatmasından ibarettir!)*
-
-#### 🔴 Mehâsinü'l-Hazm / Zemmü't-Tehevvür (Tedbir ve Canı Muhafaza Etmenin Övgüsü)
-* **Temel Argüman:** Gözü kapalı ateşe atılmak kahramanlık değil akılsızlıktır (*tehevvür*). İhtiyat (*hazm*), aklın kalkanıdır. Canını ve ordusunu muhafaza eden kumandan üstündür.
-* **el-Mütenebbî (Akıl Önceliği):**
-  > *الرَّأْيُ قَبْلَ شَجَاعَةِ الشُّجْعَانِ *** هُوَ أَوَّلٌ وَهِيَ المَحَلُّ الثَّانِي*  
-  > *فَإِذَا هُمَا اجْتَمَعَا لِنَفْسٍ مِرَّةٍ *** بَلَغَتْ مِنَ العَلْيَاءِ كُلَّ مَكَانِ*  
-  > *(Stratejik akıl ve doğru basiret, yiğitlerin cesaretinden önce gelir; akıl birinci sırada, cesaret ise ikinci mertebededir. Eğer bu ikisi asil bir nefiste birleşirse, o insan yüceliğin zirvesine ulaşır.)*
-* **Ahnef b. Kays:**
-  > *"الحزم سوء الظن بالعدو، وتوقع المكاره قبل وقوعها، وإعداد العدة لدفعها."*
-
----
-
-### 4. Işk (Tutkulu Aşk) vs. Silvân (Unutuş/Akılcılık)
-
-#### 🟢 Mehâsinü'l-Işk (Aşkın Ruhu Yüceltmesi)
-* **Temel Argüman:** Aşk; kaba ruhları incelten, cimriyi cömert kılan, korkağa cesaret aşılayan ilahi ve estetik bir cevherdir. Seven insan sevdiğinin aynasında kemale erer.
-* **Mecnûn-ı Âmirî (Kays b. el-Mülavvah):**
-  > *وَمَا سَعَادَتِي إِلَّا فِي شَقَائِي بِحُبِّهَا *** وَمَا لَذَّتِي إِلَّا بِوَجْدٍ وَلَوْعَةِ*  
-  > *فَلَو قِيلَ لِي رَانَ الفُؤَادُ لَقُلْتُ لَا *** وَلَكِنَّهُ فِي نُورِ لَيْلَى يَتِيمُ*  
-  > *(Benim saadetim ancak onun aşkıyla çektiğim çilededir; lezzetim ise ancak o yangın ve vecd iledir. Bana 'kalbin karardı mı' deseler 'hayır!' derim; bilakis kalbim Leylâ'nın nurunda yetim kalmış bir seyyahtır.)*
-
-#### 🔴 Mesâvîü'l-Işk ve Mehâsinü's-Silvân (Aşkın Helaki ve Aklın Kurtuluşu)
-* **Temel Argüman:** Aşk bir hastalıktır, iradenin bir faniye teslim edilerek felç edilmesidir. Kurtuluş *silvân*da (teselli, unutuş ve aklın bağımsızlığını geri kazanmasında) yatar.
-* **Eflâtun-ı İlâhî Rivayeti:**
-  > *"العشق حركة النفس الفارغة من جلائل الأمور، إذا لم تجد عملاً شريفاً يشغلها تعلقت بالصور."*  
-  > *(Aşk, yüce gayelerden mahrum kalmış boş bir nefsin debelenişidir; meşgul olacak şerefli bir vazife bulamadığında suretlere takılıp kalır.)*
-* **Ebû Nuvâs:**
-  > *دَعْ عَنْكَ لَوْمِي فَإِنَّ اللَّوْمَ إِغْرَاءُ *** وَدَاوِنِي بِالَّتِي كَانَتْ هِيَ الدَّاءُ*
-
----
-
-### 5. Vefâ (Bağlılık) vs. Zemmü'l-İğtirâr (Temkin/Mesafe)
-
-#### 🟢 Mehâsinü'l-Vefâ (Dostluk ve Ahde Vefa)
-* **Temel Argüman:** Vefa asil ruhların süsüdür. Emaneti korumak ve ahde sadık kalmak uğruna can ve evlat feda edilir.
-* **Semev’el b. Âdiyâ Meseli:**
-  > *Semev'el, kendisine emanet edilen zırhları teslim etmemek için muhasara altındayken düşmanın rehin aldığı öz oğlunu gözleri önünde katletmesine razı olmuş ve ahdine hıyanet etmemiştir. Araplar arasında darb-ı mesel olmuştur: «أَوْفَى مِنَ السَّمَوْأَلِ» (Semev'el'den daha vefalı).*
-* **İmâm-ı Şâfiî Divanı:**
-  > *إِذَا المَرْءُ لَا يَرْعَاكَ إِلَّا تَكَلُّفًا *** فَدَعْهُ وَلَا تُكْثِرْ عَلَيْهِ التَّأَسُّفَا*  
-  > *فَفِي النَّاسِ أَبْدَالٌ وَفِي التَّرْكِ رَاحَةٌ *** وَفِي القَلْبِ صَبْرٌ لِلحَبِيبِ وَلَوْ جَفَا*  
-  > *(Eğer bir insan sana ancak yapmacık bir külfetle ilgi gösteriyorsa, onu terk et ve arkasından sakın eseflenme! Zira insanlarda alternatif çoktur, terketmekte rahatlık vardır; cefakar olsa dahi sabredecek yürek bulunur.)*
-
-#### 🔴 Zemmü'l-İğtirâr bi'n-Nâs (İnsanlara Aşırı Güvenin Yergisi ve Tedbir)
-* **Temel Argüman:** İnsanların menfaat üzerine kurulu dostluklarına güvenip savunmasız kalmak ahmaklıktır.
-* **İbnü'l-Mu'tez'in Uyarısı:**
-  > *احْذَرْ عَدُوَّكَ مَرَّةً وَاحْذَرْ صَدِيقَكَ أَلْفَ مَرَّةٍ*  
-  > *فَلَرُبَّمَا انْقَلَبَ الصَّدِيقُ فَكَانَ أَعْلَمَ بِالمَضَرَّةِ*  
-  > *(Düşmanından bir kez sakın, fakat dostundan bin kez sakın! Zira bir gün dostun düşmana dönerse sana nereden ve nasıl zarar vereceğini en iyi o bilir.)*
-
----
-
-### 6. İlim (Hikmet/Nûr) vs. Rahatü'l-Cehl (Cehaletin Konforu)
-
-#### 🟢 Mehâsinü'l-İlm (İlmin Yüceliği)
-* **Temel Argüman:** İlim insanı meleklerden üstün kılan nurdur.
-* **Hz. Ali'nin (k.v.) Hikmetli Beyti:**
-  > *العِلْمُ يَرْفَعُ بَيْتًا لَا عِمَادَ لَهُ *** وَالجَهْلُ يَهْدِمُ بَيْتَ العِزِّ وَالشَّرَفِ*  
-  > *تَعَلَّمْ فَلَيْسَ المَرْءُ يُولَدُ عَالِمًا *** وَلَيْسَ أَخُو عِلْمٍ كَمَنْ هُوَ جَاهِلُ*  
-  > *(İlim, direksiz haneleri göklere yükseltir; cehalet ise şeref ve asalet saraylarını temellerinden yıkar. Öğren! Zira hiç kimse anasından âlim doğmaz; ilim sahibi olanla cahil kalan asla bir olmaz!)*
-
-#### 🔴 Rahatü'l-Cehl ve Âfâtü'l-İlm (Cehaletin Rahatlığı ve İlmin Kederi)
-* **Temel Argüman:** İlim derinleştikçe varoluşsal keder, sorumluluk ve şüphe artar. Cahil ise tasasızca ömrünü tüketir.
-* **el-Mütenebbî:**
-  > *ذُو العَقْلِ يَشْقَى فِي النَّعِيمِ بِعَقْلِهِ *** وَأَخُو الجَهَالَةِ فِي الشَّقَاوَةِ يَنْعَمُ*  
-  > *(Akıl ve idrak sahibi, nimetler ve bolluk içinde dahi aklının getirdiği kederle kıvranır; cahil kimse ise sefaletin ortasında tasasızca keyif sürer.)*
-* **Lokman Hekim Nakli:** *"من زاد علمه زاد حزنه، ومن كثر فهمه قل قراره."*
-
----
-
-### 7. Uzlet (İnzivâ/Halvet) vs. Hılta (Toplumsallık/Muâşeret)
-
-#### 🟢 Mehâsinü'l-Uzle (Yalnızlığın Fazileti)
-* **Temel Argüman:** İnsanların fitnesinden, riyadan ve hasetten uzaklaşıp kalbi arındırmanın yolu halvet ve uzlettir.
-* **Fudayl b. İyâz:**
-  > *"العزلة حصن حصين من آفات اللسان، وسلامة من التصنع للخلق، ومن استوحش من الوحدة فذلك لقلة أنسه بالله."*
-* **Arap Şiir Şahidi:**
-  > *سَلَامٌ عَلَى أَهْلِ القُبُورِ فَإِنَّهُمْ *** نَجَوْا مِنْ أَذَى الدُّنْيَا وَغَدْرِ الخَلَائِقِ*  
-  > *(Kabir ehline selam olsun! Zira onlar dünyanın eziyetinden ve yaratılmışların kahredici vefasızlığından kurtuldular.)*
-
-#### 🔴 Mehâsinü'l-Hılta (Toplumsallığın ve Cemaatin Fazileti)
-* **Temel Argüman:** İnsan medenî-i bittab'dır (sosyal bir varlıktır). Cemaat rahmettir; cihad, ilim tedrisi ve dayanışma ancak toplum içinde kaimdir.
-* **Hadis-i Şerif:**
-  > *«المُؤْمِنُ الَّذِي يُخَالِطُ النَّاسَ وَيَصْبِرُ عَلَى أَذَاهُمْ خَيْرٌ مِنَ الَّذِي لَا يُخَالِطُهُمْ وَلَا يَصْبِرُ عَلَى أَذَاهُمْ»* (İbn Mâce)
-* **Ahnef b. Kays:** *"المرء بأخيه، واليد بالساعد، والكثرة سياج منيع ضد عوادي الزمان."*
-
----
-
-### 8. Medih (Övgü/Teşvik) vs. Hiciv (Yergi/Teşhir)
-
-#### 🟢 Mehâsinü'l-Medh (Övgünün Fazileti)
-* **Temel Argüman:** Medih, erdemleri yeşerten, iyiliği çoğaltan ve asil ruhları gayrete getiren manevi bir mükâfattır.
-* **Kâ'b b. Züheyr (Bânet Suâd Kasidesi):**
-  > *إِنَّ الرَّسُولَ لَسَيْفٌ يُسْتَضَاءُ بِهِ *** مُهَنَّدٌ مِنْ سُيُوفِ اللَّهِ مَسْلُولُ*  
-  > *(Şüphesiz Resûlullah, kendisinden nur alınan bir ışıktır; Allah'ın çekilmiş yalınkılıç çelik kılıçlarından bir kılıçtır!)*
-
-#### 🔴 Mehâsinü'l-Hicâ (Hicvin Caydırıcılığı)
-* **Temel Argüman:** Hiciv, haddini aşan mütekebbirleri, hasis zenginleri ve zalimleri terbiye eden edebi bir kılıçtır.
-* **Hassân b. Sâbit'in Müşriklere Karşı Meydan Okuması:**
-  > *هَجَوْتَ مُحَمَّدًا فَأَجَبْتُ عَنْهُ *** وَعِنْدَ اللَّهِ فِي ذَاكَ الجَزَاءُ*  
-  > *فَإِنَّ أَبِي وَوَالِدَهُ وَعِرْضِي *** لِعِرْضِ مُحَمَّدٍ مِنْكُمْ وِقَاءُ*  
-  > *(Sen Muhammed'i hicvettin, ben de ona cevap verdim; bunun mükâfatı Allah katındadır. Şüphesiz babam, dedem ve bütün namusum, Muhammed'in şeref ve namusuna kalkan ve fedadır!)*
-
----
-
-### 9. Sabır (Metanet/Rıza) vs. Ceze' (Kederin İfşası/Ağıt)
-
-#### 🟢 Mehâsinü's-Sabr (Sabrın Fazileti)
-* **Temel Argüman:** Sabır imanın yarısı, musibet dalgalarına karşı ruhun aşılmaz kalesidir.
-* **Kur'an Müjdesi:**
-  > *«إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍ»* (ez-Zümer: 10)
-* **Hz. Ali'nin (k.v.) Temsili:**
-  > *"الصبر من الإيمان بمنزلة الرأس من الجسد؛ فإذا ذهب الرأس ذهب الجسد، وإذا ذهب الصبر ذهب الإيمان."*
-* **Şairin Haykırışı:**
-  > *سَأَصْبِرُ حَتَّى يَعْجَزَ الصَّبْرُ عَنْ صَبْرِي *** وَأَصْبِرُ حَتَّى يَأْذَنَ اللَّهُ فِي أَمْرِي*
-
-#### 🔴 Mehâsinü'l-Ceze' ve't-Teessüf (Hüznü Dışa Vurmanın Rahatlığı)
-* **Temel Argüman:** Kederi içine hapsetmek kalbi kurutur. Gözyaşı rahmettir ve fıtrattır.
-* **Hz. Yakub'un (a.s.) Feryadı:**
-  > *«قَالَ إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ»* (Yûsuf: 86)
-* **Fuzûlî / Kadim Adab Rivayeti:**
-  > *Gözyaşı dökmek kalpteki keder hararetini teskin eder; feryat etmek içteki zehri akıtır.*
-
----
-
-### 10. Tevâzu (Mahviyet) vs. Kibr ale'l-Mütekebbirîn (İzzet/Celadet)
-
-#### 🟢 Mehâsinü't-Tevâzu (Tevazuun Güzelliği)
-* **Temel Argüman:** Tevazu makam ve büyüklüğün yegâne süsüdür.
-* **Hadis-i Şerif:**
-  > *«وَمَا تَوَاضَعَ أَحَدٌ لِلَّهِ إِلَّا رَفَعَهُ اللَّهُ»* (Müslim)
-* **Hikmet Şiiri:**
-  > *تَوَاضَعْ تَكُنْ كَالنَّجْمِ لَاحَ لِنَاظِرٍ *** عَلَى صَفَحَاتِ المَاءِ وَهْوَ رَفِيعُ*  
-  > *وَلَا تَكُ كَالدُّخَانِ يَرْفَعُ نَفْسَهُ *** إِلَى طَبَقَاتِ الجَوِّ وَهْوَ وَضِيعُ*  
-  > *(Tevazu göster ki, suyun yüzeyinde parıldayan fakat göğün zirvesinde duran yıldız gibi olasın! Sakın göğe doğru yükselip caka satan fakat esasta alçak ve bayağı olan duman gibi olma!)*
-
-#### 🔴 Mehâsinü'l-Kibr ale'l-Mütekebbirîn (Kibirlilere Karşı İzzet)
-* **Temel Argüman:** Zorbalara ve mütekebbirlere tevazu göstermek zillettir; onların karşısında dik durmak sadakadır.
-* **Arap Kelâm Rivayeti:**
-  > *"التَّكَبُّرُ عَلَى المُتَكَبِّرِ صَدَقَةٌ، وَالتَّذَلُّلُ لَهُ مَسْكَنَةٌ وَمَهَانَةٌ."*
-* **Amr b. Külsum (Muallaka-i Seb'a):**
-  > *أَلَا لَا يَجْهَلَنْ أَحَدٌ عَلَيْنَا *** فَنَجْهَلَ فَوْقَ جَهْلِ الجَاهِلِينَا*  
-  > *(Bilin ki hiç kimse bize cehalet taslamaya kalkmasın! Yoksa biz cahillerin cehaletini katbekat aşar, hadlerini bildiririz!)*
-
----
-
-## ⚖️ Diyalektik Kutuplar ve Retorik Figürler Matrisi
+## ⚖️ Diyalektik Kutuplar ve Retorik Figürler Karşılaştırma Matrisi (20 Kutup)
 
 | # | Tematik Başlık | 🟢 Tez (El-Mehâsin) | 🔴 Antitez (El-Ezdâd / El-Mesâvî) | ⚖️ Diyalektik Sentez | 🎭 Başlıca Retorik Sanat |
 |---|---|---|---|---|---|
@@ -368,6 +146,66 @@ Aşağıda, eserde yer alan 10 temel kavramsal ikiliğin orijinal metin mantığ
 | **08** | **Medih & Hiciv** | el-Medh (Fazileti Teşvik) | el-Hicâ (Zulmü Teşhir) | Hak edene medih, haddi aşana caydırıcı hiciv. | Teşbih-i Temsîlî, Cinâs |
 | **09** | **Sabır & Teessüf** | es-Sabr (Ruhun Zırhı) | el-Ceze' (Fıtri Arınma) | İsyansız gözyaşı ve kadere mutlak rıza. | Mukâbele, İktibas-ı Âyet |
 | **10** | **Tevâzu & İzzet** | et-Tevâzu (Mahviyet) | el-Kibr (Zalime Karşı Dik Duruş) | Mümin kardeşe tevazu, mütekebbire izzet. | İsti'lâ, Teşbih, Tıbâk |
+| **11** | **Zenginlik & Yoksulluk** | el-Gınâ (İnfak ve İzzet) | el-Fakr (Kanaat ve Zühd) | Hakiki zenginlik nefis tokluğudur (gınâ-i nefs). | Tıbâk, Cinâs, Mukâbele |
+| **12** | **Şehir & Çöl** | el-Hadar (İlim ve Medeniyet) | el-Bâdiye (Fıtri Fesahat) | Çölün saflığı ile şehrin nizamının imtizacı. | Tıbâk, Mukâbele, Teşbih |
+| **13** | **Vatan & Gurbet** | el-Vatan (Kökler ve Sıla) | es-Sefer (Ufuk ve Tecrübe) | Vatan kökü besler, gurbet ufku açar. | Tıbâk, Cinâs, Hüsn-i Ta'lîl |
+| **14** | **Gençlik & Yaşlılık** | eş-Şebâb (Hamiyet ve Güç) | eş-Şeyb (Vakar ve Hikmet) | Gençliğin gücü yaşlılığın tecrübesiyle parlar. | Tıbâk, Cinâs-ı Zâid, İstiare |
+| **15** | **Hürriyet & İtaat** | el-Hürriyet (Fıtri Asalet) | et-Tâat (Nizam ve Asayiş) | Hukuka itaat hürriyeti korur; izzet adaleti ayakta tutar. | Tıbâk, Mukâbele, İttisâ |
+| **16** | **Af & İntikam** | el-Afv (Bağışlama ve Rahmet) | el-İntikâm (Kısas ve Caydırıcılık) | Şahsi hakta af fazilet, kamu hakkına tecavüzde kısas şart. | Tıbâk, Mukâbele, İktibas |
+| **17** | **Sır & Açıklık** | Ketmü's-Sırr (Zafer ve Ketumiyet) | el-İfşâ (Şeffaflık ve İtimat) | Stratejide ketumiyet, dostlukta samimi sarâhat. | Tıbâk, Cinâs, Teşbih |
+| **18** | **Mizah & Vakar** | ed-Dahik (Nefsi Dinlendirme) | el-Bükâ (Heybet ve Huşû) | Latife ile tebessüm, vakar ile ciddiyet dengesi. | Tıbâk, Cinâs, Mukâbele |
+| **19** | **Hırs & Zühd** | el-Hırs (Yüksek Hamiyet) | ez-Zühd (Faniyi Terk) | İlimde ve hayırda hırs; dünyalıkta zühd ve kanaat. | Tıbâk, Mukâbele, İttisâ |
+| **20** | **Suret & Siret** | el-Hüsn (Suret Güzelliği) | es-Sîret (Ahlaki Kemal) | Suret fanidir, insanı baki kılan sirettir. | Tıbâk, Cinâs-ı Lafzî, Teşbih |
+
+---
+
+## 🐍 `el_mehasin` Python SDK ve CLI Kullanımı
+
+Depo, doğrudan `pip install -e .` ile kurulabilir ve hem kütüphane hem CLI olarak kullanılabilir:
+
+```bash
+# Kurulum
+pip install -e .
+
+# CLI Komutları
+python -m el_mehasin.cli list        # 20 diyalektik kutbu listele
+python -m el_mehasin.cli stats       # Korpus ve retorik istatistiklerini göster
+python -m el_mehasin.cli search samt # Anahtar kelimeyle arama yap
+python -m el_mehasin.cli get pair_001_samt_beyan # Belirli bir çiftin tüm detaylarını getir
+python -m el_mehasin.cli validate    # Şema ve veri bütünlüğünü doğrula
+```
+
+### Python Kütüphanesi Örnek Kullanımı:
+
+```python
+from el_mehasin import DialecticCorpus, DialecticAnalyzer
+
+# Korpusu yükle
+corpus = DialecticCorpus()
+print(f"Toplam kutup çifti: {len(corpus)}")
+
+# Belirli bir çifti getir
+pair = corpus.get_by_id("pair_001_samt_beyan")
+print(f"Tez: {pair.thesis.concept} -> {pair.thesis.top_quote.turkish}")
+print(f"Antitez: {pair.antithesis.concept} -> {pair.antithesis.top_quote.turkish}")
+print(f"Sentez: {pair.dialectic_synthesis}")
+
+# İstatistikleri al
+analyzer = DialecticAnalyzer(corpus)
+stats = analyzer.get_corpus_statistics()
+print("Retorik Sanatlar Dağılımı:", stats["rhetorical_devices_frequency"])
+```
+
+---
+
+## 🌐 Etkileşimli Web Gezgini (Interactive Explorer)
+
+Korpusu görsel, modern ve iki panelli bir arayüzle yerel tarayıcınızda inceleyebilirsiniz:
+
+```bash
+python scripts/serve_explorer.py
+```
+Tarayıcınızda açılacak adres: `http://localhost:8080/explorer/`
 
 ---
 
@@ -399,81 +237,64 @@ Bu korpus, modern yapay zekâ ve hesaplamalı dilbilim araştırmaları için a�
 ```plaintext
 el-mehasin-vel-ezdad/
 ├── assets/
-│   └── banner.svg                  # Proje vektörel tanıtım afişi
+│   ├── banner.svg                  # Proje vektörel tanıtım afişi
+│   ├── hero_manuscript.jpg         # Klasik yazma eser & diyalektik terazi görseli
+│   ├── munazara_debate.jpg         # Abbâsî münazara ve meclis tablosu
+│   └── card_features.svg           # Tez-Antitez görsel şema kartı
 ├── corpus/
-│   ├── arabic_raw/                 # Matbu neşirlerin OCR edilmiş ham halleri (10 Bölüm)
-│   ├── turkish_annotated/          # Açıklamalı Türkçe çeviri metinleri (10 Bölüm)
+│   ├── arabic_raw/                 # Matbu neşirlerin OCR edilmiş ham halleri (20 Bölüm)
+│   ├── turkish_annotated/          # Açıklamalı Türkçe çeviri metinleri (20 Bölüm)
 │   └── english_reference/          # Terminoloji ve kavram sözlüğü (glossary.json vb.)
 ├── data/
-│   ├── dialectic_pairs.jsonl       # Bütün tez-antitez kayıtlarının yapılandırılmış hali (10 Çift)
+│   ├── dialectic_pairs.jsonl       # Bütün tez-antitez kayıtlarının yapılandırılmış hali (20 Çift)
 │   ├── hf_dataset_export.json      # Hugging Face için düzleştirilmiş veri kümesi
+│   ├── corpus_tei.xml              # Digital Humanities standardı TEI XML korpusu
 │   └── taxonomy_ontology.json     # Adab, ahlak ve belagat ontolojisi
+├── el_mehasin/                     # Python SDK Kütüphanesi
+│   ├── __init__.py
+│   ├── corpus.py
+│   ├── dialectic.py
+│   ├── rhetoric.py
+│   └── cli.py
+├── explorer/                       # Etkileşimli Web Gezgini Dashboard
+│   └── index.html
 ├── schemas/
 │   └── dialectic_entry.schema.json # JSON Schema doğrulaması
 ├── scripts/
 │   ├── validator.py                # Şema doğrulayıcı ve veri tutarlılık denetçisi
-│   └── export_huggingface.py       # Korpusu HF Dataset formatına çevirici
+│   ├── export_huggingface.py       # Korpusu HF Dataset formatına çevirici
+│   ├── export_tei_xml.py           # TEI XML ihracatçısı
+│   ├── stats.py                    # Detaylı korpus metrikleri ve frekans analizi
+│   ├── serve_explorer.py           # Web Gezgini yerel sunucusu
+│   └── benchmark_llm_dialectic.py  # LLM Diyalektik değerlendirme senaryoları
+├── tests/                          # Otomatik Test Süiti (100% Passing)
+│   ├── test_corpus.py
+│   ├── test_schema.py
+│   └── test_rhetoric.py
 ├── notebooks/
 │   ├── rhetoric_vector_search.ipynb# Anlamsal zıtlıkların vektörel analizi
 │   └── sentiment_polarity.ipynb    # Metin kutupluluk skorlaması
+├── pyproject.toml                  # Python Paket Yapılandırması
 ├── LICENSE                         # MIT Açık Kaynak Lisansı
 └── README.md                       # Kapsamlı Proje Dokümantasyonu
 ```
 
-### Örnek `dialectic_pairs.jsonl` Kaydı
-
-```json
-{
-  "entry_id": "pair_001_samt_beyan",
-  "topic_slug": "sukut-ve-kelam",
-  "classical_arabic_title": "محاسن الصمت ومحاسن الكلام",
-  "thesis": {
-    "pole": "mehasin",
-    "concept": "es-Samt (Sükût ve İmsak)",
-    "core_premise": "Suskunluk vakar, selamettir, nefsin afetlerinden korunma kalkanıdır ve hikmetin kapısıdır.",
-    "evidence_count": 6,
-    "top_quote": {
-      "arabic": "الصمت حكم وقليل فاعله",
-      "turkish": "Susamak bir bilgeliktir, fakat uygulayanı pek azdır.",
-      "source": "Hikmet-i Lokmân / Mecmau'l-Emsâl"
-    }
-  },
-  "antithesis": {
-    "pole": "ezdad",
-    "concept": "el-Beyân (Kelâm ve Nutk)",
-    "core_premise": "Suskunluk acizlik ve dilsizliktir; hakikati açığa çıkaran, insanı mahlukata üstün kılan nutk ve beyândır.",
-    "evidence_count": 6,
-    "top_quote": {
-      "arabic": "خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ",
-      "turkish": "İnsanı yarattı ve ona beyânı (açıkça ifade etmeyi) öğretti.",
-      "source": "Kur'ân-ı Kerîm (er-Rahmân: 3-4)"
-    }
-  },
-  "dialectic_synthesis": "Bağlamsal İtidal: Cahilin ve fitne ehlinin yanında sükût ilim ve siper; hakikatin şahitliğinde ve âlimin meclisinde kelâm hürmet ve vecibedir.",
-  "metadata": {
-    "rhetorical_devices": ["Tıbâk", "Mukâbele", "İcâz", "Cinâs-ı Nâkıs"],
-    "traditional_attribution": "Pseudo-Jahiz / al-Bayhaqi",
-    "chapter_index": 1
-  }
-}
-```
-
 ---
 
-## 🛠️ Katkı Sağlama ve İnceleme Süreci
+## 🧪 Testler ve Doğrulama
 
-1. Depoyu forklayın (fork).
-2. Yeni bir dal açın: `git checkout -b feature/yeni-kutup-eklemesi`.
-3. Eserden seçtiğiniz metin çiftini `corpus/` altına ekleyin ve `data/dialectic_pairs.jsonl` dosyasına şemaya uygun biçimde işleyin.
-4. Doğrulama testini çalıştırın:
-   ```bash
-   python scripts/validator.py
-   ```
-5. Hugging Face ihracatını yenileyin:
-   ```bash
-   python scripts/export_huggingface.py
-   ```
-6. Dalınızı gönderin (push) ve bir Pull Request oluşturun.
+Tüm veri kümeleri, JSON şemaları ve kütüphane fonksiyonları test süiti ile korunmaktadır:
+
+```bash
+# Birim testlerini çalıştır
+python -m unittest discover tests
+
+# Korpus bütünlük ve şema denetimini çalıştır
+python scripts/validator.py
+
+# Detaylı metrikleri incele
+python scripts/stats.py
+```
 
 ---
 
@@ -483,7 +304,7 @@ el-mehasin-vel-ezdad/
 * **el-Beyhakî, İbrâhim b. Muhammed:** *el-Mehâsin ve'l-Mesâvî*, thk. Muhammed Ebü'l-Fazl İbrâhim, 2 Cilt, Kahire: Dârü'l-Maârif, 1961.
 * **Pellat, Charles:** "al-Djāḥiẓ", *The Encyclopaedia of Islam (New Edition)*, Leiden: E.J. Brill, Cilt II, ss. 385-387.
 * **Gündüz, Şinasi:** *Klasik Arap Edebiyatında Mehâsin ve Mesâvî Türü ve Mahiyeti*, Ankara Üniversitesi İlahiyat Fakültesi Yayınları.
-* **van Gelder, Geert Jan:** *The Bad and the Ugly: Attitudes Towards Invective (Hija') in Classical Arabic Literature*, Leiden: E.J. Brill, 1988.
+* **van Gelder, Geert Jan:** *The Bad and the Ugly: Attitudes Towards Invective (Hija') in Classical Arabic Literature*, Leiden: E.J. Brill, 1898.
 * **İbn Kuteybe:** *Uyûnü'l-Ahbâr*, thk. Yûsuf Ali Tavîl, Beyrut: Dârü'l-Kütübi'l-İlmiyye, 1986.
 * **el-Askerî, Ebû Hilâl:** *Kitâbü's-Sınâateyn (el-Kitâbe ve'ş-Şi'r)*, thk. Müfîd Muhammed Kamîha, Beyrut: Dârü'l-Kütübi'l-İlmiyye, 1984.
 * **el-Meydânî, Ahmed b. Muhammed:** *Mecmau'l-Emsâl*, thk. Muhammed Muhyiddin Abdülhamîd, Kahire: Matbaatü's-Sunne, 1955.

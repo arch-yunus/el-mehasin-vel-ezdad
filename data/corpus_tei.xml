@@ -1,0 +1,335 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kitab al-Mahasin wa-al-Addad: Digital Humanities Dialectic Corpus</title>
+        <author>Pseudo-Jahiz / Ibrahim b. Muhammad al-Bayhaqi</author>
+      </titleStmt>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="dialectic_pair" id="pair_001_samt_beyan">
+        <head>محاسن الصمت ومحاسن الكلام</head>
+        <div type="thesis" pole="mehasin">
+          <head>es-Samt (Sükût ve İmsak)</head>
+          <p type="premise">Suskunluk vakar, selamettir, nefsin afetlerinden korunma kalkanıdır ve hikmetin kapısıdır.</p>
+          <quote lang="ar">الصمت حكم وقليل فاعله</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Beyân (Kelâm ve Nutk)</head>
+          <p type="premise">Suskunluk acizlik ve dilsizliktir; hakikati açığa çıkaran, insanı mahlukata üstün kılan nutk ve beyândır.</p>
+          <quote lang="ar">خَلَقَ الْإِنسَانَ عَلَّمَهُ الْبَيَانَ</quote>
+        </div>
+        <div type="synthesis">
+          <p>Bağlamsal İtidal: Cahilin ve fitne ehlinin yanında sükût ilim ve siper; hakikatin şahitliğinde ve âlimin meclisinde kelâm hürmet ve vecibedir.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_002_cud_buhl">
+        <head>محاسن الجود ومحاسن البخل والاقتصاد</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Cûd ve's-Sehâ (Cömertlik ve Îsâr)</head>
+          <p type="premise">Cömertlik bütün ayıpları örten, namı ve şerefi ebedileştiren, insanı Hakk'a ve halka sevdiren en asil fazilettir.</p>
+          <quote lang="ar">أماويّ إن المال غادٍ ورائحٌ *** ويبقى من المال الأحاديث والذكرُ</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Buhl ve'l-İktisâd (Tasarruf ve Malı Koruma)</head>
+          <p type="premise">Ölçüsüz cömertlik iflas, zillet ve tebzirdir; mal hürriyetin, izzetin ve neslin kalkanıdır.</p>
+          <quote lang="ar">ما عال من اقتصد</quote>
+        </div>
+        <div type="synthesis">
+          <p>İktisadi Hikmet: İsraf ve saçıp savurma (tebzir) ile hasislik (buhl) arasında orta yol olan adil cömertlik (sehâ) esastır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_003_secaat_hazm">
+        <head>محاسن الشجاعة ومحاسن الحزم والتحفظ</head>
+        <div type="thesis" pole="mehasin">
+          <head>eş-Şecâa ve'l-İqdâm (Cesaret ve Yiğitlik)</head>
+          <p type="premise">Cesaret ruhun izzetidir; mertlik tehlike karşısında geri çekilmemek, hakkı ve namusu can pahasına savunmaktır.</p>
+          <quote lang="ar">إذا غامَرْتَ في شَرَفٍ مَرُومِ *** فَلا تَقنَعْ بما دونَ النّجُومِ</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Hazm ve Zemmü't-Tehevvür (İhtiyat ve Tedbir)</head>
+          <p type="premise">Körü körüne helake atılmak kahramanlık değil akılsızlıktır; ordunun ve canın bekası teenni ve basirettedir.</p>
+          <quote lang="ar">الحزم سوء الظن وتوقي المكاره</quote>
+        </div>
+        <div type="synthesis">
+          <p>Stratejik Muvazene: Cesaret akıl ve basiret ile taçlandığında mutlak zafere; aklın rehberliğinden yoksun cesaret ise helake götürür.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_004_isk_silvan">
+        <head>محاسن العشق ومساوئه ومحاسن السلوان</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Işk ve'l-Hevâ (Tutkulu Aşk)</head>
+          <p type="premise">Aşk kaba nefisleri incelten, cimriyi cömert kılan, korkağa cesaret aşılayan ilahi bir cezbe ve estetik kemaldir.</p>
+          <quote lang="ar">العشق يصفي الكدر، ويهذب الأخلاق، ويحيي الفؤاد الميت</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>es-Silvân ve Zemmü'l-Işk (Akıl ve Unutuş)</head>
+          <p type="premise">Aşk iradenin felci ve nefsin esaretidir; kurtuluş metanet, sabır ve aklın bağımsızlığını yeniden kazanmaktadır.</p>
+          <quote lang="ar">العشق حركة النفس الفارغة من كل همّ شريف</quote>
+        </div>
+        <div type="synthesis">
+          <p>Ruhani Olgunluk: Aşkın nefsi terbiye eden ve idraki incelten estetik boyutu korunmalı; ancak aklı zail eden yıkıcı saplantıdan iradeyle arınılmalıdır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_005_vefa_igtirar">
+        <head>محاسن الوفاء وذم الاغترار بالناس</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Vefâ ve Hıfzu'l-Ahd (Ahde Vefa)</head>
+          <p type="premise">Vefa asil ruhların süsü ve mürüvvetin esasıdır; emanete sadakat ölüm pahasına da olsa çiğnenemez.</p>
+          <quote lang="ar">أوفى من السموأل بن عادياء</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>Zemmü'l-İğtirâr bi'n-Nâs (Aşırı Güvenin Yergisi)</head>
+          <p type="premise">Zamanın insanlarının ahdine koşulsuz güven hüsrandır; akıllı kimse her an temkini ve ihtiyatı elinde tutar.</p>
+          <quote lang="ar">لا تثقن بود من لا وفاء له عند زوال المنفعة، فإنما الناس مع من غلب</quote>
+        </div>
+        <div type="synthesis">
+          <p>İçtimai Basiret: Ahde vefa göstermek şahsi ve ahlaki mükellefiyettir; ancak insan ilişkilerinde körü körüne hüsn-i zan yerine ferasetle hareket edilmelidir.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_006_ilim_cehil">
+        <head>محاسن العلم ومحاسن الجهل والراحة من التكليف</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-İlm ve'l-Marifet (İlim ve Hikmet)</head>
+          <p type="premise">İlim ruhun nuru, hakikatin anahtarı ve insanı iki cihanda aziz kılan en yüce rütbedir.</p>
+          <quote lang="ar">يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>Rahatu'l-Cehl ve Âfâtü'l-İlm (Cehaletin Rahatlığı ve İlmin Kederi)</head>
+          <p type="premise">İlim sahibine derin keder, şüphe ve mesuliyet yükler; avamın cehaleti ise dünyevi bir dinginlik ve mesuliyetsizlik rahatlığı sunar.</p>
+          <quote lang="ar">ذو العقل يشقى في النعيم بعقله *** وأخو الجهالة في الشقاوة ينعم</quote>
+        </div>
+        <div type="synthesis">
+          <p>Epistemik İtidal: Hakiki ilim, insanı hem kederin getirdiği rehavetten hem de cehaletin bataklığından koruyan bir kulluk ve marifet şuurudur.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_007_uzlet_muhasere">
+        <head>محاسن العزلة ومحاسن الخلطة والمعاشرة</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Uzle ve'l-İnferâd (Yalnızlık ve İnzivâ)</head>
+          <p type="premise">Uzlet dinin ve ahlakın selametidir; insanlardan uzak durmak riyadan, gıybetten ve fitnelerden korunma sığınağıdır.</p>
+          <quote lang="ar">العزلة راحة من خلطاء السوء وصيانة للعرض والدين</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Hılta ve'l-Muâşere (Toplumsallık ve Sohbet)</head>
+          <p type="premise">İnsan medenî-i bittab'dır (tabiatı gereği toplumsaldır); hayırların yayılması, cihad, ilim meclisleri ve cemaat ancak insanlarla iç içe olmakla mümkündür.</p>
+          <quote lang="ar">المؤمن الذي يخالط الناس ويصبر على أذاهم خير من الذي لا يخالطهم ولا يصبر على أذاهم</quote>
+        </div>
+        <div type="synthesis">
+          <p>Sosyal Denge: Kalben Hakk ile halvete ermişken, bedenen ve fiilen toplum içinde hakka hizmet etmek (halvet der encümen) asıldır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_008_medh_zemm">
+        <head>محاسن المدح ومحاسن الذم والهجاء</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Medh ve's-Senâ (Övgü ve Teşvik)</head>
+          <p type="premise">Övgü erdemleri yeşerten, iyiliği teşvik eden, cömert ve adil yöneticilerin gayretini artıran edebi bir mükafattır.</p>
+          <quote lang="ar">المدح يبعث الكريم على بذل المزيد، ويبعث الدنيء على التشبه بالكرام</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>ez-Zemm ve'l-Hicâ (Yergi ve Hiciv)</head>
+          <p type="premise">Hiciv zalimleri dizginleyen, cimrileri utandıran, toplumsal kokuşmuşluğu teşhir eden keskin bir ahlak kamçısıdır.</p>
+          <quote lang="ar">للهجاء وقع أشد من وقع السهام على لئام القوم</quote>
+        </div>
+        <div type="synthesis">
+          <p>Edebi Adalet: Hak edene samimi medih adalet ve hakkın teslimidir; haddi aşan mütekebbirlere ve zalimlere hiciv ise caydırıcı bir terbiye vasıtasıdır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_009_sabr_cez">
+        <head>محاسن الصبر ومحاسن الجزع والشكوى</head>
+        <div type="thesis" pole="mehasin">
+          <head>es-Sabr ve'l-İhtisâb (Sabır ve Metanet)</head>
+          <p type="premise">Sabır musibetlerin ilacı, ruhun sarsılmaz kalesi ve kurtuluşun en kesin teminatıdır.</p>
+          <quote lang="ar">إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍ</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Ceze' ve İzhâru't-Teessüf (Feryat ve Kederin İfşası)</head>
+          <p type="premise">İçine atıp susmak kalbi çürütür; feryat ve gözyaşı kederin ağırlığını hafifleten, kalpteki zehri akıtan insani bir tabiattır.</p>
+          <quote lang="ar">إنما أشكوا بثي وحزني إلى الله</quote>
+        </div>
+        <div type="synthesis">
+          <p>Fıtri İtidal: İsyan ve nankörlüğe varmayan fıtri hüzün ve gözyaşı rahmettir; ancak kadere rıza ve metanet ruhun nihai kemalatıdır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_010_tevazu_kibr">
+        <head>محاسن التواضع ومحاسن التيه والكبر في موضعه</head>
+        <div type="thesis" pole="mehasin">
+          <head>et-Tevâzu' ve'l-Hınâ (Tevâzu ve Mahviyet)</head>
+          <p type="premise">Tevazu büyüklüğün ziyneti, kalbin selameti ve insanı hakiki mertebesine yükselten manevi kanattır.</p>
+          <quote lang="ar">من تواضع لله رفعه</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Kibr ale'l-Mütekebbirîn (Kibirlilere Karşı İzzet ve Gurur)</head>
+          <p type="premise">Zalimlere ve kibirlilere karşı tevazu göstermek zillet ve meskenettir; mütekebbirin karşısında dik durmak ve kibirlenmek sadakadır.</p>
+          <quote lang="ar">التكبر على المتكبر صدقة</quote>
+        </div>
+        <div type="synthesis">
+          <p>Ahlaki Haysiyet: Mümin kardeşine karşı şefkat ve tevazu; zalime ve mütekebbire karşı ise vakarlı bir izzet ve celadet takınmak esastır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_011_gina_fakr">
+        <head>محاسن الغنى ومحاسن الفقر والقناعة</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Gınâ ve'l-İktidâr (Zenginlik ve Varlık)</head>
+          <p type="premise">Zenginlik mürüvvetin kanadı, infak ve hayır kapısı, insanı el açma zilletinden koruyan izzettir.</p>
+          <quote lang="ar">اليد العليا خير من اليد السفلى</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Fakr ve'l-Kanâat (Yoksulluğun Fazileti ve Kanaat)</head>
+          <p type="premise">Zenginlik azgınlık, fitne ve ağır bir hesap yüküdür; kanaat ve fakirlik ise kalbin hürriyeti ve selamettir.</p>
+          <quote lang="ar">القناعة كنز لا يفنى</quote>
+        </div>
+        <div type="synthesis">
+          <p>Mali Hikmet: Hakiki zenginlik mal çokluğu değil nefis tokluğudur (gınâ-i nefs); servet elde tutulmalı fakat kalbe sokulmamalıdır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_012_hadar_bedeviyyet">
+        <head>محاسن الحضر والمدنية ومحاسن البادية والأعراب</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Hadar ve'l-Umrân (Şehirleşme ve Medeniyet)</head>
+          <p type="premise">Şehir ilmin, sanatın, nizamın ve yüksek adabın merkezidir; medeniyet insanı vahşilikten kurtaran kemaldir.</p>
+          <quote lang="ar">الحضارة مجمع العلوم ومقر الملوك وموطن الآداب والصنائع</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Bâdiye ve Fasâhatü'l-A'râb (Çölün Saflığı ve Fesahat)</head>
+          <p type="premise">Şehir riya, gevşeklik ve lüks batağıdır; çöl ise katıksız dilin (fesahat), sıhhatin, cesaretin ve hürriyetin ocağıdır.</p>
+          <quote lang="ar">عليكم بلغة أهل البادية فإنها أسلم من اللحن وأعذب في المنطق</quote>
+        </div>
+        <div type="synthesis">
+          <p>Kültürel İtidal: Çölün fıtri saflığı ve dili ile şehrin ilim ve nizamı mezcedildiğinde kemal-i medeniyet teşekkül eder.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_013_vatan_gurbet">
+        <head>محاسن الوطن وحنينه ومحاسن الاغتراب والأسفار</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Vatan ve'l-Hanîn (Vatan Sevgisi ve Sıla)</head>
+          <p type="premise">Vatan insanın kökü, ruhunun sığınağıdır; vatan hasreti asil fıtratların ve vefalı kalplerin şiarıdır.</p>
+          <quote lang="ar">حب الوطن من الإيمان</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>es-Sefer ve'l-İğtirâb (Seyahatin ve Gurbetin Kazançları)</head>
+          <p type="premise">Yerinde sayan su kirlenir; seyahat tecrübe, maişet, rütbe, ilim ve yeni ufuklar kazandıran bir mekteptir.</p>
+          <quote lang="ar">تَغَرَّبْ عَنِ الأَوْطَانِ فِي طَلَبِ العُلَى *** وَسَافِرْ فَفِي الأَسْفَارِ خَمْسُ فَوَائِدِ</quote>
+        </div>
+        <div type="synthesis">
+          <p>Seyyahi Basiret: Vatan sevgisi kökleri beslerken, seyahat ve gurbet ufku genişletip meyve verdirir.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_014_sebab_seyb">
+        <head>محاسن الشباب والقوة ومحاسن الشيب والوقار</head>
+        <div type="thesis" pole="mehasin">
+          <head>eş-Şebâb ve'l-Cidde (Gençliğin Tazeliği ve Hamiyeti)</head>
+          <p type="premise">Gençlik ömrün baharı, kuvvetin, neşenin ve şecaatin kaynağıdır; yitirildiğinde geri dönmeyen bir cevherdir.</p>
+          <quote lang="ar">ألا ليت الشباب يعود يوماً *** فأخبره بما فعل المشيبُ</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>eş-Şeyb ve'l-Hikme (Ak Saçların Heybeti ve Olgunluk)</head>
+          <p type="premise">Gençlik heves ve cehalettir; yaşlılık ise aklın kemali, tecrübenin feneri ve vakarın tacıdır.</p>
+          <quote lang="ar">الشيب نور ووقار للمؤمن</quote>
+        </div>
+        <div type="synthesis">
+          <p>Ömür Dengesi: Gençliğin hamiyeti yaşlılığın tecrübe ve hikmetiyle birleştiğinde milletler ve medeniyetler yükselir.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_015_hurriyet_itaat">
+        <head>محاسن الحرية والأنفة ومحاسن الطاعة ولزوم الجماعة</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Hürriyet ve'l-İstiklâl (Hürriyet ve Asalet)</head>
+          <p type="premise">İnsan hür yaratılmıştır; zillet altında yaşamaktansa şerefle ölmek hür insanların tabiatıdır.</p>
+          <quote lang="ar">متى استعبدتم الناس وقد ولدتهم أمهاتهم أحراراً؟</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>et-Tâat ve İntizâmü'l-Cemâa (İtaat ve Nizam)</head>
+          <p type="premise">Başıboşluk anarşi ve fitnedir; adalete ve meşru nizama itaat devletin, asayişin ve can emniyetinin temelidir.</p>
+          <quote lang="ar">ستون سنة من إمام جائر أصلح من ليلة واحدة بلا سلطان</quote>
+        </div>
+        <div type="synthesis">
+          <p>Siyasi İtidal: Meşru hukuka ve adalete itaat hürriyeti korur; keyfi zulme karşı izzet ise adaleti ayakta tutar.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_016_afv_intikam">
+        <head>محاسن العفو والحلم ومحاسن الانتقام وعزة الغلبة</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Afüv ve'l-Hilm (Af ve Bağışlama)</head>
+          <p type="premise">Af gücü yettiğinde bağışlamaktır; kin ve öfkeyi yutmak ilahi rahmetin ve peygamber ahlakının tezahürüdür.</p>
+          <quote lang="ar">وَأَن تَعْفُوا أَقْرَبُ لِلتَّقْوَىٰ</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-İntikâm ve Ted’îbü'l-Cânî (İntikam ve Had Bildirme)</head>
+          <p type="premise">Haddini aşan zalimi affetmek zulmü teşvik eder; kısas ve had bildirmek adaletin ve mazlumun hakkının ikamesidir.</p>
+          <quote lang="ar">ولكم في القصاص حياة يا أولي الألباب</quote>
+        </div>
+        <div type="synthesis">
+          <p>Hukuki Hikmet: Şahsi haklarda af ve merhamet fazilettir; kamu hakkı ve mazlumun hukuku çiğnendiğinde adaletin celadeti zaruridir.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_017_ketm_ifsa">
+        <head>محاسن كتمان السر ومحاسن الإفشاء والصراحة</head>
+        <div type="thesis" pole="mehasin">
+          <head>Ketmü's-Sırr ve's-Sıyânet (Sır Saklama ve Ketumiyet)</head>
+          <p type="premise">Sır insanın kanıdır; sırrını saklayan hür kalır, ifşa eden ise kendi eliyle esarete düşer.</p>
+          <quote lang="ar">استعينوا على إنجاح الحوائج بالكتمان فإن كل ذي نعمة محسود</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-İfşâ ve's-Sarâha (Açıklık ve Şeffaflık)</head>
+          <p type="premise">Gizlilik şüphe ve fitne doğurur; hakikati açıkça ilan etmek itimadın, samimiyetin ve istişarenin ruhudur.</p>
+          <quote lang="ar">الوضوح راحة البال ودليل البراءة من كل ريبة</quote>
+        </div>
+        <div type="synthesis">
+          <p>İstişari Denge: Stratejik gayeler ketumiyetle muhafaza edilirken, dostluk ve idarede samimi açıklık esastır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_018_dahik_buka">
+        <head>محاسن الضحك والمزاح ومحاسن البكاء والجد</head>
+        <div type="thesis" pole="mehasin">
+          <head>ed-Dahik ve'l-Mizâh (Mizah ve Neşe)</head>
+          <p type="premise">Yerinde yapılan latife ve tebessüm kalpleri birbirine bağlar, nefsin yorgunluğunu giderir.</p>
+          <quote lang="ar">روحوا القلوب ساعة بعد ساعة فإن القلوب إذا كلت عميت</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-Bükâ ve'l-Vakâr (Ağlama ve Ciddiyet)</head>
+          <p type="premise">Aşırı kahkaha kalbi öldürür, heybeti yok eder; tefekkür ve gözyaşı ruhu derinleştirir.</p>
+          <quote lang="ar">كثرة الضحك تميت القلب وتذهب بالبهاء</quote>
+        </div>
+        <div type="synthesis">
+          <p>Psikolojik Muvazene: Tebessüm ve mülattife ile ruh dinlendirilmeli; fakat ciddiyet ve vakar elden bırakılmamalıdır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_019_hirs_zuhd">
+        <head>محاسن الحرص وعلو الهمة ومحاسن الزهد والقناعة</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Hırs ve Uluvvü'l-Himmet (Yüksek Gayret ve Hamiyet)</head>
+          <p type="premise">Ulu hedeflere ulaşmak ancak hırs, gayret ve bitmek tükenmek bilmeyen çalışma aşkıyla mümkündür.</p>
+          <quote lang="ar">على قدر أهل العزم تأتي العزائم *** وتأتي على قدر الكرام المكارمُ</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>ez-Zühd ve Fethu'l-Kanâat (Zühd ve Tevekkül)</head>
+          <p type="premise">Dünyevi hırs doymak bilmeyen bir ateştir; zühd ise fani arzuları terk edip ebedi huzura kavuşmaktır.</p>
+          <quote lang="ar">ازهد في الدنيا يحبك الله وازهد فيما عند الناس يحبك الناس</quote>
+        </div>
+        <div type="synthesis">
+          <p>Ahlaki Tevazün: Ahiret ve ilimde sınırsız hırs ve gayret; fani dünyalıkta ise zühd ve kanaat esastır.</p>
+        </div>
+      </div>
+      <div type="dialectic_pair" id="pair_020_husn_kubh">
+        <head>محاسن الحسن والجمال ومحاسن القبح والاعتبار بالسيرة</head>
+        <div type="thesis" pole="mehasin">
+          <head>el-Hüsn ve'l-Cemâl (Güzellik ve Suret)</head>
+          <p type="premise">Güzellik ruhun cezbesi, tabiatın letafeti ve kalpleri hayra sevk eden ilahi bir lütuftur.</p>
+          <quote lang="ar">إن الله جميل يحب الجمال</quote>
+        </div>
+        <div type="antithesis" pole="ezdad">
+          <head>el-İ'tibâr bi's-Sîret lâ bi's-Sûret (Siretin Surete Üstünlüğü)</head>
+          <p type="premise">Suret fani bir kabuktur; nice güzel suretlerin ardında zehirli ruhlar, nice çirkin suretlerin ardında ise elmas gibi kalpler saklıdır.</p>
+          <quote lang="ar">إن الله لا ينظر إلى صوركم وأموالكم ولكن ينظر إلى قلوبكم وأعمالكم</quote>
+        </div>
+        <div type="synthesis">
+          <p>Estetik ve Ahlaki Kemalat: Zahiri güzellik bir nimet ve tefekkür vesilesidir; ancak insanı ebedi kılan batıni güzellik ve ahlak-ı hamidedir.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
