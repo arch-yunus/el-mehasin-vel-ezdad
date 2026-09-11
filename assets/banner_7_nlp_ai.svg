@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgP7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190e2b"/>
+      <stop offset="50%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#0c0517"/>
+    </linearGradient>
+    <linearGradient id="gold7" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="50%" stop-color="#f3e8ff"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="240" rx="12" fill="url(#bgP7)"/>
+  <rect x="16" y="16" width="1168" height="208" rx="8" fill="none" stroke="url(#gold7)" stroke-width="1.2" stroke-dasharray="6,4" opacity="0.4"/>
+  
+  <g transform="translate(100, 120)">
+    <circle cx="0" cy="0" r="46" fill="#4c1d95" stroke="#a855f7" stroke-width="2"/>
+    <text x="0" y="12" font-size="34" text-anchor="middle">🤖</text>
+  </g>
+
+  <text x="180" y="90" font-family="'Amiri', serif" font-size="28" fill="#c084fc">مُعَالَجَةُ اللُّغَاتِ الطَّبِيعِيَّةِ وَنَمَاذِجُ الذَّكَاءِ الاصْطِنَاعِيِّ</text>
+  <text x="180" y="130" font-family="'Cinzel', serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="2">MODERN NLP, LLM VE HESAPLAMALI RETORİK</text>
+  <text x="180" y="165" font-family="'Inter', sans-serif" font-size="14" fill="#e9d5ff">Argument Mining • Semantic Antonymy Vectors • Chain-of-Thought (CoT) Prompting</text>
+
+  <g transform="translate(1080, 120)">
+    <rect x="-70" y="-20" width="140" height="40" rx="20" fill="rgba(168, 85, 247, 0.15)" stroke="#a855f7" stroke-width="1"/>
+    <text x="0" y="6" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#a855f7" text-anchor="middle">BÖLÜM XII</text>
+  </g>
+</svg>

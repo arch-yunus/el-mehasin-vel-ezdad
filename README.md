@@ -99,6 +99,10 @@ Bu projenin temel misyonu:
 ## 🏛️ Tarihsel, Felsefi ve Epistemolojik Arka Plan
 
 <div align="center">
+<img src="assets/banner_1_philosophy.svg" alt="Philosophy Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;"/>
+</div>
+
+<div align="center">
 <img src="assets/munazara_debate.jpg" alt="Abbasid Court Dialectic Debate Hall" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);"/>
 <p><em>Abbâsî saray ve meclis muhitinde diyalektik münazara, felsefi akıl yürütme ve belagat meclisi tasviri.</em></p>
 </div>
@@ -118,6 +122,10 @@ Beytülhikme tercüme faaliyetleriyle birlikte Aristoteles'in *Organon* külliya
 ---
 
 ## 🧐 Müelliflik ve Metin Tenkidi: Câhiz mi, Beyhakî mi?
+
+<div align="center">
+<img src="assets/banner_2_authorship.svg" alt="Authorship Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;"/>
+</div>
 
 *Kitâbü'l-Mehâsin ve'l-Ezdâd* adlı eserin aidiyeti problemi, modern şarkiyatın ve İslam filolojisinin en klasik tartışma konularından biridir:
 
@@ -169,6 +177,10 @@ Modern edebiyat tarihçileri (Şinasi Gündüz, Geert Jan van Gelder, Tarif Khal
 ## ⚖️ Diyalektik Kurgu Mimarisi ve İki Kutuplu Mantık (Bipolar Logic)
 
 <div align="center">
+<img src="assets/banner_3_dialectic_triad.svg" alt="Dialectic Triad Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;"/>
+</div>
+
+<div align="center">
 <img src="assets/card_features.svg" alt="Dialectic Architecture Card" width="100%"/>
 </div>
 
@@ -192,6 +204,10 @@ Klasik adab münazarasında bir tezin tahkimi için şu hiyerarşi takip edilir:
 ---
 
 ## 📜 20 Diyalektik Kutbun Kapsamlı Monografileri ve Şevâhid Külliyatı
+
+<div align="center">
+<img src="assets/banner_4_shawahid_poetry.svg" alt="Shawahid Poetry Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;"/>
+</div>
 
 Bu bölümde korpustaki 20 diyalektik temanın tamamı; tez ve antitez öncülleri, Arapça orijinal şahitleri, Türkçe açıklamaları, kaynakları, tarihi fıkraları ve diyalektik sentezleriyle eksiksiz sunulmuştur.
 
@@ -580,6 +596,10 @@ Bu bölümde korpustaki 20 diyalektik temanın tamamı; tez ve antitez öncülle
 
 ## 🔬 Klasik Belagat ve Retorik Figürler Rehberi
 
+<div align="center">
+<img src="assets/banner_5_balaghah_rhetoric.svg" alt="Balaghah Rhetoric Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;"/>
+</div>
+
 Klasik Arap belagat ilmi (Meânî, Beyân ve Bedî‘) bu korpusta yaşayan bir mekanizma olarak işler:
 
 ```mermaid
@@ -614,6 +634,10 @@ graph LR
 ---
 
 ## 🐍 `el_mehasin` Python SDK ve Kapsamlı API Rehberi
+
+<div align="center">
+<img src="assets/banner_6_sdk_code.svg" alt="Python SDK Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;"/>
+</div>
 
 ### Kurulum ve Modüler Mimari
 Proje hem Python kütüphanesi hem de komut satırı aracı (CLI) olarak geliştirilmiştir.
@@ -711,6 +735,10 @@ python scripts/serve_explorer.py
 ---
 
 ## 🤖 Modern NLP, LLM ve Hesaplamalı Retorik Senaryoları
+
+<div align="center">
+<img src="assets/banner_7_nlp_ai.svg" alt="NLP AI Banner" width="100%" style="border-radius: 10px; margin-bottom: 20px;"/>
+</div>
 
 ### Zıt Kutuplu Argüman Madenciliği (Argument Mining)
 Argüman madenciliği modellerinde en büyük zorluk, karşıt tezlerin delil yapılarını (*premises, claims, warrants*) dengeli şekilde ayrıştırabilmektir. Bu korpus, her temanın hem lehte hem aleyhte eşit retorik güçle yapılandırıldığı nadir altın standart (*gold standard*) veri setlerindendir.
