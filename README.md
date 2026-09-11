@@ -681,7 +681,13 @@ for quote in pair.thesis.additional_quotes:
 | `list` | Tüm 20 diyalektik kutup çiftini tablolaştırarak listeler | `python -m el_mehasin.cli list` |
 | `stats` | Korpus boyutunu, alıntı sayılarını ve retorik cihazları gösterir | `python -m el_mehasin.cli stats` |
 | `get <id>` | Belirtilen kimliğe ait tüm tez, antitez ve şevâhid detaylarını döker | `python -m el_mehasin.cli get pair_003_secaat_hazm` |
+| `compare <id>` | Tez ve antitezi yan yana karşılaştırmalı ASCII kart formatında gösterir | `python -m el_mehasin.cli compare pair_002_cud_buhl` |
 | `search <query>` | Arapça ve Türkçe metinlerde terim araması yapar | `python -m el_mehasin.cli search vatan` |
+| `rhetoric <id/text>` | Metin veya kutup kaydındaki belagat sanatlarını (Tıbâk, Mukâbele vb.) analiz eder | `python -m el_mehasin.cli rhetoric pair_001_samt_beyan` |
+| `quiz` | Klasik şiir ve hikmetlerden oluşan etkileşimli terminal münazara oyunu | `python -m el_mehasin.cli quiz` |
+| `graph` | Diyalektik ağ grafı ve düğüm-kenar (nodes/edges) JSON çıktısını üretir | `python -m el_mehasin.cli graph` |
+| `export-tei` | Korpusu TEI P5 XML standardında dışa aktarır (`data/corpus_tei.xml`) | `python -m el_mehasin.cli export-tei` |
+| `export-hf` | Hugging Face Datasets formatına dönüştürür (`data/hf_dataset_export.json`) | `python -m el_mehasin.cli export-hf` |
 | `validate` | JSONL ve veri şemalarının tamlığını denetler | `python -m el_mehasin.cli validate` |
 
 ---
@@ -696,11 +702,11 @@ python scripts/serve_explorer.py
 
 * **Erişim Adresi:** `http://localhost:8080/explorer/`
 * **Özellikler:**
-  * 🎛️ **Sol Panel:** 20 Diyalektik kutup arasında anında geçiş, kategori filtreleme ve arama.
-  * 🟢 **Tez Kartı (El-Mehâsin):** Yeşil temalı, Arapça hat yazıları, Türkçe mealler, delil puanları.
-  * 🔴 **Antitez Kartı (El-Ezdâd):** Kırmızı temalı, karşıt argümanlar ve şiir şahitleri.
-  * ⚖️ **Sentez Rozeti:** Altın oranlı bağlamsal itidal açıklaması.
-  * 📊 **Retorik Etiketler:** Tıbâk, Mukâbele, Cinâs ve İrsâl-i Mesel etiketleri.
+  * 🌓 **Karanlık / Aydınlık Tema (Theme Toggle):** Tek tıkla gece ve gündüz modu arasında geçiş.
+  * 🎛️ **Kategori Filtreleme & Arama:** Ahlak, Sosyal, Felsefe ve Hukuk kategorilerine göre filtreleme; anlık Türkçe/Arapça arama.
+  * 📊 **Chart.js Analitik Grafikleri:** Retorik figür frekansları ve tez/antitez delil denge grafiği.
+  * 🎲 **Abbâsî Münazara Simülatörü:** Rastgele kutuplar seçip meclis münazarasını canlandıran interaktif modül.
+  * 💾 **Doğrudan Veri İndirme:** JSONL ve TEI XML formatlarını arayüzden tek tıkla indirme.
 
 ---
 

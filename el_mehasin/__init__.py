@@ -1,12 +1,18 @@
 """
-el_mehasin: Classical Arabic Bipolar Dialectic & Rhetorical Corpus Library.
+el-mehasin-vel-ezdad: Classical Arabic Bipolar Dialectic Corpus & Computational Rhetoric Suite
 """
 
-__version__ = "1.0.0"
-__author__ = "Bahattin Yunus ÇETİN"
-
-from .corpus import DialecticCorpus, DialecticPair
+from .corpus import DialecticCorpus, DialecticPair, DialecticPole, PoleQuote
 from .dialectic import DialecticAnalyzer
-from .rhetoric import RhetoricDetector
+from .rhetoric import RhetoricClassifier, RhetoricDetector
 
-__all__ = ["DialecticCorpus", "DialecticPair", "DialecticAnalyzer", "RhetoricDetector"]
+__version__ = "1.1.0"
+__all__ = [
+    "DialecticCorpus",
+    "DialecticPair",
+    "DialecticPole",
+    "PoleQuote",
+    "DialecticAnalyzer",
+    "RhetoricClassifier",
+    "RhetoricDetector"
+]
